@@ -9334,7 +9334,7 @@ figure {
   font-style: normal; }
 
 .Header {
-  background-color: #ff8c97;
+  background-color: #C41230;
   height: 100vh;
   width: 100%; }
   .Header-cover {
@@ -9350,8 +9350,17 @@ figure {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 90%;
+    top: 100%;
     width: 100%; }
+  .Header-logo {
+    background-color: #fdfefe;
+    width: 136px;
+    height: 76px;
+    background-color: aqua;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
   .Header-content {
     align-items: center;
     background-color: #fdfefe;
