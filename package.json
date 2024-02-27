@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "watch-scss": "node-sass --source-map ./styles/css --watch ./styles/scss -o ./styles/css",
     "lint": "next lint"
   },
   "dependencies": {
