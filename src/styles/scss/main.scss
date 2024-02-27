@@ -1,8 +1,4 @@
-@import "utils/index";
-@import "bases/index";
-@import "pages/index";
-@import "components/index";
-
-body {
-    background-color: aqua;
-}
+@import "../scss/vendor/index";
+@import "../scss/components/index";
+@import "../scss/bases/index";
+@import "../scss/pages/index";
