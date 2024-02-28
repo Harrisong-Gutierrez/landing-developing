@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Offer from "@/components/Offer";
 
 import Head from "next/head";
 
@@ -20,6 +21,7 @@ export default function Home() {
           imgArrow="Arrow-img"
           paragraph="Entdecke dein exklusives Angebot"
         />
+        <Offer title="EXKLUSIV FÜR VEEPEE-MITGLIEDER" />
       </main>
     </>
   );
