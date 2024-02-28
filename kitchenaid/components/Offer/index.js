@@ -12,19 +12,19 @@ const Offer = ({ title }) => {
           20
           <span className="Offer-percentage">%</span>
         </h3>
-        <p className="d-block Offer-subtitle-supplementary">
+        <p className="d-block Offer-subtitle-supplementary Offer-subtitle-firstVariant">
           auf das gesamte Sortiment*
         </p>
         <h3 className="Offer-subtitle">
           25
           <span className="Offer-percentage">%</span>
         </h3>
-        <p className="d-block Offer-subtitle-supplementary">
+        <p className="d-block Offer-subtitle-supplementary Offer-subtitle-secondVariant">
           auf alle Küchenmaschinen-Vorsätze, -Zubehör und -Schüsseln
         </p>
         <CopyCode
-          copyLabel="Cloquer pour copier"
-          copiedLabel="Zum Kopieren des Codes klicken"
+          copyLabel="Zum Kopieren des Codes klicken"
+          copiedLabel="Le code a été copié"
         />
         <Button href="/" textContent="JETZT SHOPPEN" styleLink="Offer-button" />
       </div>
