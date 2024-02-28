@@ -15,7 +15,7 @@ export default function Home() {
         <Header
           logoHeight={52}
           logoWidth={104}
-          title="Journées Sergent Major"
+          title="Weihnachten mit KitchenAid"
           imgCover="Header-cover"
           imgArrow="Arrow-img"
           paragraph="Entdecke dein exklusives Angebot"

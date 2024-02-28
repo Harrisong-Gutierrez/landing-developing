@@ -26,7 +26,6 @@
         background-color: $white;
         width: 136px;
         height: 76px;
-        background-color: aqua;
         border-radius: 6px;
         display: flex;
         align-items: center;
@@ -35,32 +34,30 @@
 
     &-content {
         align-items: center;
-        background-color: $white;
-        border-radius: 4px;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 328px;
-        padding: 32px 0;
-        filter: drop-shadow(0px 6px 19px $shadow);
+        width: auto;
+        padding-top: 32px;
+        padding-bottom: 24px;
     }
 
     &-title {
-        color: $red-cozy;
-        font-family: $font-noto-self;
-        font-size: 34px;
-        max-width: 225px;
+        color: $white;
+        font-size: 32px;
+        width: 324px;
         text-align: center;
-        margin-bottom: 32px;
+        margin: 24px 0;
+        font-family: "Nunito Sans", sans-serif;
+        font-weight: 900;
     }
 
     &-paragraph {
-        color: $pink-cosy;
+        color: $white;
         font-family: $font-raleway;
-        font-size: 16px;
-        line-height: 15px;
+        font-size: 14px;
         text-align: center;
-        width: 200px;
+        width: 328px;
         display: flex;
         justify-content: center;
         gap: 5px;

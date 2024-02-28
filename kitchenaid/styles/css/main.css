@@ -3,6 +3,7 @@
    * Copyright 2011-2023 The Bootstrap Authors
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9291,7 +9292,7 @@ textarea.form-control-lg {
 p {
   margin: 0; }
 
-h3, .h3, h2, .h2 {
+h3, .h3, h2, .h2, h1, .h1 {
   margin: 0; }
 
 figure {
@@ -9356,35 +9357,32 @@ figure {
     background-color: #fdfefe;
     width: 136px;
     height: 76px;
-    background-color: aqua;
     border-radius: 6px;
     display: flex;
     align-items: center;
     justify-content: center; }
   .Header-content {
     align-items: center;
-    background-color: #fdfefe;
-    border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 328px;
-    padding: 32px 0;
-    filter: drop-shadow(0px 6px 19px rgba(34, 34, 43, 0.26)); }
+    width: auto;
+    padding-top: 32px;
+    padding-bottom: 24px; }
   .Header-title {
-    color: #ff4747;
-    font-family: "Denike Regular";
-    font-size: 34px;
-    max-width: 225px;
+    color: #fdfefe;
+    font-size: 32px;
+    width: 324px;
     text-align: center;
-    margin-bottom: 32px; }
+    margin: 24px 0;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 900; }
   .Header-paragraph {
-    color: #fb7d89;
+    color: #fdfefe;
     font-family: "Raleway Regular";
-    font-size: 16px;
-    line-height: 15px;
+    font-size: 14px;
     text-align: center;
-    width: 200px;
+    width: 328px;
     display: flex;
     justify-content: center;
     gap: 5px;
@@ -9436,7 +9434,9 @@ figure {
   background-repeat: no-repeat;
   background-size: cover;
   top: 0;
-  left: 1.5px; }
+  left: 1.5px;
+  width: 24px;
+  height: 26px; }
 
 @keyframes moveUpDown {
   0%, 100% {
