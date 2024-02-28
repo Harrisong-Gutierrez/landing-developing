@@ -4,6 +4,7 @@
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 :root,
 [data-bs-theme="light"] {
   --bs-blue: #0d6efd;
@@ -9379,14 +9380,15 @@ figure {
     font-weight: 900; }
   .Header-paragraph {
     color: #fdfefe;
-    font-family: "Raleway Regular";
+    font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
     text-align: center;
     width: 328px;
     display: flex;
     justify-content: center;
     gap: 5px;
-    flex-direction: column; }
+    flex-direction: column;
+    font-weight: 300; }
   @media (min-width: 768px) {
     .Header-cover {
       background-image: url(/head-img-x1.jpg);
