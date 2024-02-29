@@ -9671,11 +9671,13 @@ figure {
   .Category-image {
     vertical-align: revert; }
   .Category-icon {
-    background-color: #C41230;
     border-radius: 30px;
-    color: #fdfefe;
     height: 22.15px;
     width: 22.15px; }
+    .Category-icon-firstVariant {
+      color: #fdfefe; }
+    .Category-icon-secondVariant {
+      color: #C41230; }
   @media (min-width: 768px) {
     .Category {
       background-size: cover; } }

@@ -15,6 +15,7 @@ export const Categories = ({
     return categoryArr.map((category) => (
       <div key={uuidv4()}>
         <Category
+          iconClass={category.iconClass}
           textClass={category.textClass}
           text={category.text}
           alt={category.alt}

@@ -29,11 +29,17 @@
     }
 
     &-icon {
-        background-color: $red;
         border-radius: 30px;
-        color: $white;
         height: 22.15px;
         width: 22.15px;
+
+        &-firstVariant {
+            color: $white;
+        }
+
+        &-secondVariant {
+            color: $red;
+        }
     }
 
     @include media-breakpoint-up(md) {
