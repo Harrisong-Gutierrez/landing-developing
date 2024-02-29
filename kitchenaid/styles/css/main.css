@@ -9586,4 +9586,113 @@ figure {
   .Offer {
     padding-bottom: 100px; } }
 
+.Categories {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 48px;
+  padding-top: 48px; }
+  .Categories-firstVariant {
+    background-color: #fdfefe; }
+  .Categories-secondVariant {
+    background-color: #fb7d89; }
+  .Categories-text {
+    color: #C41230;
+    font-size: 12px;
+    height: 36px;
+    max-width: 260px;
+    text-align: center;
+    width: 328px; }
+    .Categories-text-variant {
+      font-size: 14px; }
+  .Categories-title {
+    color: #C41230;
+    font-size: 24px;
+    height: auto;
+    line-height: 30px;
+    text-align: center;
+    width: 328px; }
+  .Categories-content {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    grid-gap: 32px 8px;
+    justify-content: center; }
+  .Categories-head {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 66px;
+    margin-bottom: 24px;
+    width: 328px; }
+  @media (min-width: 992px) {
+    .Categories-title {
+      font-size: 32px;
+      height: 21px;
+      line-height: 38px;
+      margin-bottom: 16px;
+      width: 100%; }
+    .Categories-content {
+      gap: 24px; }
+    .Categories-text {
+      font-size: 16px;
+      height: 14px;
+      max-width: 100%;
+      width: 100%; }
+    .Categories-head {
+      width: 100%; } }
+
+@media (min-width: 992px) {
+  .Categories {
+    padding-bottom: 96px;
+    padding-top: 92px; } }
+
+.Category {
+  height: 250px; }
+  .Category-content {
+    align-items: center;
+    display: flex;
+    gap: 40px 8px;
+    height: 36px;
+    justify-content: space-between;
+    width: 100%; }
+  .Category-text {
+    color: #C41230;
+    font-size: 16px;
+    width: 136px;
+    line-height: 24px; }
+  .Category-image {
+    vertical-align: revert; }
+  .Category-icon {
+    background-color: #C41230;
+    border-radius: 30px;
+    color: #fdfefe;
+    height: 22.15px;
+    width: 22.15px; }
+  @media (min-width: 768px) {
+    .Category {
+      background-size: cover; } }
+  @media (min-width: 992px) {
+    .Category-image {
+      height: 278px;
+      width: 220px; }
+    .Category-text {
+      font-size: 20px;
+      height: 48px;
+      line-height: 30px;
+      width: 196px; }
+    .Category-cover {
+      background-size: cover; }
+    .Category-content {
+      width: 220px; }
+    .Category-icon {
+      height: 24px;
+      width: 24px; } }
+
+@media (min-width: 992px) {
+  .Category {
+    height: 335px; } }
+
 /*# sourceMappingURL=main.css.map */

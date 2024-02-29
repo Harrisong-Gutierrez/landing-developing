@@ -1,5 +1,7 @@
+import Categories from "@/components/Categories";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
+import { categories, secondcategories } from "@/constants/dataList";
 
 import Head from "next/head";
 
@@ -22,6 +24,18 @@ export default function Home() {
           paragraph="Entdecke dein exklusives Angebot"
         />
         <Offer title="EXKLUSIV FÜR VEEPEE-MITGLIEDER" />
+        <Categories
+          catClass="Categories Categories-firstVariant"
+          categoryArr={categories}
+          title="Damenkollektion"
+        />
+        <Categories
+          titleClass="Offer-titleVarianrt"
+          catClass="Categories Categories-secondVariant"
+          categoryArr={secondcategories}
+          title="Mädchenkollektion"
+          Categories
+        />
       </main>
     </>
   );
