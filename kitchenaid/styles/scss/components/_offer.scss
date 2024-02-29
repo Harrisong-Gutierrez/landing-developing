@@ -54,6 +54,17 @@
         margin: 48px 0;
     }
 
+    &-secondTitle {
+        font-size: 24px;
+        color: $red;
+        line-height: 30px;
+    }
+
+    &-main {
+        display: flex;
+        justify-content: center;
+    }
+
     &-copyBox {
         border: $grey-cozy 1px solid;
         border-radius: 6px;
@@ -91,6 +102,15 @@
             text-align: center;
             width: 296px;
             color: $red;
+            display: block;
+        }
+
+        &-supplementaryVarient {
+            font-size: 14px;
+            line-height: 18px;
+            color: $black;
+            font-weight: 300;
+            text-align: center;
         }
 
         &-firstVariant {
@@ -99,6 +119,11 @@
 
         &-secondVariant {
             margin-bottom: 24px;
+        }
+
+        &-percentage {
+            font-size: 14px;
+            line-height: 18px;
         }
     }
 

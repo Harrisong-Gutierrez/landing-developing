@@ -24,9 +24,12 @@ export default function Home() {
           paragraph="Entdecke dein exklusives Angebot"
         />
         <Offer
+          supplementaryClass="Offer-subtitle-supplementary Offer-subtitle-firstVariant"
           offerClass="Offer Offer-firstImgVariant"
           title="EXKLUSIV FÜR VEEPEE-MITGLIEDER"
           showCopyCodeAndButton
+          titleClass="Offer-title"
+          subtitleClass="Offer-subtitle"
         />
 
         <Categories
@@ -47,9 +50,13 @@ export default function Home() {
         />
 
         <Offer
+          supplementaryClass="Offer-subtitle-supplementaryVarient"
           offerClass="Offer Offer-secondImgVariant"
           title="Nur für kurze Zeit!"
           showCopyCodeAndButton={false}
+          titleClass="Offer-secondTitle"
+          mainClass="Offer-main"
+          subtitleClass="Offer-subtitle-percentage"
         />
       </main>
     </>

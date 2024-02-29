@@ -3,25 +3,38 @@ import PropTypes from "prop-types";
 import Button from "../Button";
 import CopyCode from "../CopyCode";
 
-const Offer = ({ title, showCopyCodeAndButton, offerClass }) => {
+const Offer = ({
+  title,
+  showCopyCodeAndButton,
+  offerClass,
+  titleClass,
+  mainClass,
+  subtitleClass,
+  supplementaryClass,
+}) => {
   return (
     <section className={offerClass}>
       <div className="Offer-content">
-        <h2 className="Offer-title">{title}</h2>
-        <h3 className="Offer-subtitle">
-          20
-          <span className="Offer-percentage">%</span>
-        </h3>
-        <p className="d-block Offer-subtitle-supplementary Offer-subtitle-firstVariant">
-          auf das gesamte Sortiment*
-        </p>
-        <h3 className="Offer-subtitle">
-          25
-          <span className="Offer-percentage">%</span>
-        </h3>
-        <p className="d-block Offer-subtitle-supplementary Offer-subtitle-secondVariant">
-          auf alle Küchenmaschinen-Vorsätze, -Zubehör und -Schüsseln
-        </p>
+        <h2 className={titleClass}>{title}</h2>
+
+        <div className={mainClass}>
+          <h3 className={subtitleClass}>
+            20
+            <span className="Offer-percentage">%</span>
+          </h3>
+          <p className={supplementaryClass}>auf das gesamte Sortiment*</p>
+        </div>
+
+        <div className={mainClass}>
+          <h3 className={subtitleClass}>
+            25
+            <span className="Offer-percentage">%</span>
+          </h3>
+          <p className={supplementaryClass}>
+            auf alle Küchenmaschinen-Vorsätze, -Zubehör und -Schüsseln
+          </p>
+        </div>
+
         {showCopyCodeAndButton && (
           <>
             <CopyCode
@@ -44,6 +57,9 @@ Offer.propTypes = {
   title: PropTypes.string.isRequired,
   showCopyCodeAndButton: PropTypes.bool.isRequired,
   offerClass: PropTypes.bool.isRequired,
+  titleClass: PropTypes.bool.isRequired,
+  mainClass: PropTypes.bool.isRequired,
+  subtitleClass: PropTypes.bool.isRequired,
 };
 
 export default Offer;

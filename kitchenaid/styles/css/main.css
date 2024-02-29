@@ -9517,6 +9517,13 @@ figure {
     justify-content: center;
     font-family: "Nunito Sans", sans-serif;
     margin: 48px 0; }
+  .Offer-secondTitle {
+    font-size: 24px;
+    color: #C41230;
+    line-height: 30px; }
+  .Offer-main {
+    display: flex;
+    justify-content: center; }
   .Offer-copyBox {
     border: #464650 1px solid;
     border-radius: 6px;
@@ -9548,11 +9555,21 @@ figure {
       line-height: 20px;
       text-align: center;
       width: 296px;
-      color: #C41230; }
+      color: #C41230;
+      display: block; }
+    .Offer-subtitle-supplementaryVarient {
+      font-size: 14px;
+      line-height: 18px;
+      color: #2E2E2E;
+      font-weight: 300;
+      text-align: center; }
     .Offer-subtitle-firstVariant {
       margin-bottom: 24px; }
     .Offer-subtitle-secondVariant {
       margin-bottom: 24px; }
+    .Offer-subtitle-percentage {
+      font-size: 14px;
+      line-height: 18px; }
   .Offer-button {
     align-items: center;
     background-color: #C41230;
