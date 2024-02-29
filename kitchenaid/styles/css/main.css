@@ -9485,7 +9485,7 @@ figure {
   .Offer-secondImgVariant {
     background-image: url(/offer-background2.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 100%; }
   .Offer-content {
     align-items: center;
@@ -9523,7 +9523,8 @@ figure {
     line-height: 30px; }
   .Offer-main {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    width: 266.15px; }
   .Offer-copyBox {
     border: #464650 1px solid;
     border-radius: 6px;
