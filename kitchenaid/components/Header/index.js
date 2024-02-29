@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
-import Arrow from "./components/Arrow";
+
 import Image from "next/image";
+import Arrow from "./components/Arrow";
 
 const Header = ({ imgCover = "", title, paragraph }) => {
   return (
