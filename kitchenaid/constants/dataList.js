@@ -68,8 +68,8 @@ export const secondcategories = [
   {
     iconClass: "Category-icon Category-text-firstVariant",
     textClass: "Category-text Category-text-firstVariant",
-    text: "Summer Sale",
-    alt: "Summer Sale",
+    text: "Jetzt entdeckenr",
+    alt: "Jetzt entdeckenr",
     width: 160,
     height: 202,
     src: "/secondcategory-4.png",
