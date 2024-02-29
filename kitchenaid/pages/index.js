@@ -23,10 +23,14 @@ export default function Home() {
           imgArrow="Arrow-img"
           paragraph="Entdecke dein exklusives Angebot"
         />
-        <Offer title="EXKLUSIV FÜR VEEPEE-MITGLIEDER" />
+        <Offer
+          offerClass="Offer Offer-firstImgVariant"
+          title="EXKLUSIV FÜR VEEPEE-MITGLIEDER"
+          showCopyCodeAndButton
+        />
 
         <Categories
-          textClass="Category-text "
+          textClass="Category-text"
           titleClass="Categories-title Categories-title-firstVariant"
           catClass="Categories Categories-secondVariant"
           categoryArr={secondcategories}
@@ -34,12 +38,18 @@ export default function Home() {
           Categories
         />
         <Categories
-          textClass="Category-text "
+          textClass="Category-text"
           titleClass="Categories-title Categories-title-secondVariant"
           catClass="Categories "
           categoryArr={categories}
           title="Mache Deine KitchenAid Küchenmaschine zum Allrounder"
           text="Mit den optionalen 15 Zubehörvorsätzen lässt sich deine Küchenmaschine vielfältig im Funktionsumfang erweitern."
+        />
+
+        <Offer
+          offerClass="Offer Offer-secondImgVariant"
+          title="Nur für kurze Zeit!"
+          showCopyCodeAndButton={false}
         />
       </main>
     </>

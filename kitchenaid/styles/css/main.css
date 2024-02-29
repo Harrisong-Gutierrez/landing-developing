@@ -9474,13 +9474,19 @@ figure {
     height: auto; } }
 
 .Offer {
-  background-image: url(/offer-background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   align-items: center;
   display: flex;
   justify-content: center;
   padding: 48px 0; }
+  .Offer-firstImgVariant {
+    background-image: url(/offer-background.png);
+    background-repeat: no-repeat;
+    background-size: cover; }
+  .Offer-secondImgVariant {
+    background-image: url(/offer-background2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%; }
   .Offer-content {
     align-items: center;
     border-radius: 18px;

@@ -1,11 +1,21 @@
 .Offer {
-    background-image: $offer-img;
-    background-repeat: no-repeat;
-    background-size: cover;
     align-items: center;
     display: flex;
     justify-content: center;
     padding: 48px 0;
+
+    &-firstImgVariant {
+        background-image: $offer-img;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &-secondImgVariant {
+        background-image: $offer-img2;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+    }
 
     &-content {
         align-items: center;
