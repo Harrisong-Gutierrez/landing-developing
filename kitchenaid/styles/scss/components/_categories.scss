@@ -11,31 +11,31 @@
     }
 
     &-secondVariant {
-        background-color: $pink-cosy;
+        background-color: $red;
     }
 
     &-text {
-        color: $red;
+        color: $black;
         font-size: 12px;
-        height: 36px;
         max-width: 260px;
         text-align: center;
         width: 328px;
-
-        &-variant {
-            // font-family: $font-futuraStd-bold;
-            font-size: 14px;
-        }
     }
 
     &-title {
-        color: $red;
-        // font-family: $font-baskerville-bold;
         font-size: 24px;
         height: auto;
         line-height: 30px;
         text-align: center;
         width: 328px;
+
+        &-firstVariant {
+            color: $white;
+        }
+
+        &-secondVariant {
+            color: $red;
+        }
     }
 
     &-content {
@@ -51,7 +51,6 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: 66px;
         margin-bottom: 24px;
         width: 328px;
     }

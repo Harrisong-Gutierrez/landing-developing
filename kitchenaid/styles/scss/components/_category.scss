@@ -12,10 +12,17 @@
 
     &-text {
         color: $red;
-        // font-family: $font-futuraStd-bold;
         font-size: 16px;
         width: 136px;
         line-height: 24px;
+
+        &-firstVariant {
+            color: $white;
+        }
+
+        &-secondVariant {
+            color: $red;
+        }
     }
 
     &-image {

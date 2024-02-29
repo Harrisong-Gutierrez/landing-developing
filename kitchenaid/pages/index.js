@@ -24,17 +24,22 @@ export default function Home() {
           paragraph="Entdecke dein exklusives Angebot"
         />
         <Offer title="EXKLUSIV FÜR VEEPEE-MITGLIEDER" />
+
         <Categories
-          catClass="Categories Categories-firstVariant"
-          categoryArr={categories}
-          title="Damenkollektion"
-        />
-        <Categories
-          titleClass="Offer-titleVarianrt"
+          textClass="Category-text "
+          titleClass="Categories-title Categories-title-firstVariant"
           catClass="Categories Categories-secondVariant"
           categoryArr={secondcategories}
-          title="Mädchenkollektion"
+          title="Das perfekte Geschenk zu Weihnachten"
           Categories
+        />
+        <Categories
+          textClass="Category-text "
+          titleClass="Categories-title Categories-title-secondVariant"
+          catClass="Categories "
+          categoryArr={categories}
+          title="Mache Deine KitchenAid Küchenmaschine zum Allrounder"
+          text="Mit den optionalen 15 Zubehörvorsätzen lässt sich deine Küchenmaschine vielfältig im Funktionsumfang erweitern."
         />
       </main>
     </>

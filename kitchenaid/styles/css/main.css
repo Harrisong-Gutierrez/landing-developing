@@ -9596,23 +9596,23 @@ figure {
   .Categories-firstVariant {
     background-color: #fdfefe; }
   .Categories-secondVariant {
-    background-color: #fb7d89; }
+    background-color: #C41230; }
   .Categories-text {
-    color: #C41230;
+    color: #2E2E2E;
     font-size: 12px;
-    height: 36px;
     max-width: 260px;
     text-align: center;
     width: 328px; }
-    .Categories-text-variant {
-      font-size: 14px; }
   .Categories-title {
-    color: #C41230;
     font-size: 24px;
     height: auto;
     line-height: 30px;
     text-align: center;
     width: 328px; }
+    .Categories-title-firstVariant {
+      color: #fdfefe; }
+    .Categories-title-secondVariant {
+      color: #C41230; }
   .Categories-content {
     align-items: center;
     display: flex;
@@ -9624,7 +9624,6 @@ figure {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 66px;
     margin-bottom: 24px;
     width: 328px; }
   @media (min-width: 992px) {
@@ -9663,6 +9662,10 @@ figure {
     font-size: 16px;
     width: 136px;
     line-height: 24px; }
+    .Category-text-firstVariant {
+      color: #fdfefe; }
+    .Category-text-secondVariant {
+      color: #C41230; }
   .Category-image {
     vertical-align: revert; }
   .Category-icon {

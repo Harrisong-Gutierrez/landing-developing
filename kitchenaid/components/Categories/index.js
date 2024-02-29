@@ -4,7 +4,13 @@ import Category from "./components/Category";
 
 import { v4 as uuidv4 } from "uuid";
 
-export const Categories = ({ title, text, categoryArr, catClass }) => {
+export const Categories = ({
+  title,
+  text,
+  categoryArr,
+  catClass,
+  titleClass,
+}) => {
   const renderCategory = () => {
     return categoryArr.map((category) => (
       <div key={uuidv4()}>
@@ -21,13 +27,8 @@ export const Categories = ({ title, text, categoryArr, catClass }) => {
   return (
     <section className={catClass}>
       <div className="Categories-head">
-        <h2 className="Categories-title">{title}</h2>
-
-        <p className="Categories-text">
-          Entdecke den Sale mit 5Categories-text-variant0% Rabatt +
-          <span className="Categories-text-variant">20% Rabatt zusätzlich</span>
-          <span className="Categories-text"> für Veepee Mitglieder</span>
-        </p>
+        <h2 className={titleClass}>{title}</h2>
+        <p className="Categories-text">{text}</p>
       </div>
       <div className="Categories-content">{renderCategory()}</div>
     </section>
@@ -38,6 +39,7 @@ Categories.propTypes = {
   catClass: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
+  titleClass: PropTypes.string.isRequired,
 };
 
 export default Categories;
