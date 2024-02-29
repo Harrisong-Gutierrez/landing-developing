@@ -12,6 +12,9 @@
 
     &-secondVariant {
         background-color: $red;
+        background-size: cover;
+        background-image: url("/CATEGORY.png");
+        width: 100%;
     }
 
     &-text {

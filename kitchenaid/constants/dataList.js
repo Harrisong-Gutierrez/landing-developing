@@ -1,5 +1,6 @@
 export const categories = [
   {
+    textClass: "Category-text Category-text-secondVariant",
     text: "Sale Pullover & Strickjacken",
     alt: "Sale Pullover & Strickjacken",
     width: 160,
@@ -7,6 +8,7 @@ export const categories = [
     src: "/category-1.png",
   },
   {
+    textClass: "Category-text Category-text-secondVariant",
     text: "Sale Kleider",
     alt: "Sale Kleider",
     width: 160,
@@ -14,6 +16,7 @@ export const categories = [
     src: "/category-2.png",
   },
   {
+    textClass: "Category-text Category-text-secondVariant",
     text: "Sale Jacken & Mäntel",
     alt: "Sale Jacken & Mäntel",
     width: 160,
@@ -21,6 +24,7 @@ export const categories = [
     src: "/category-3.png",
   },
   {
+    textClass: "Category-text Category-text-secondVariant",
     text: "Summer Sale",
     alt: "Summer Sale",
     width: 160,
@@ -31,27 +35,31 @@ export const categories = [
 
 export const secondcategories = [
   {
-    text: "Sale Sweater & Strickjacken",
-    alt: "Sale Sweater & Strickjacken",
+    textClass: "Category-text Category-text-firstVariant",
+    text: "Jetzt entdecken",
+    alt: "Jetzt entdecken",
     width: 160,
     height: 202,
     src: "/secondcategory-1.png",
   },
   {
-    text: "Sale Jacken & Mäntel",
-    alt: "Sale Jacken & Mäntel",
+    textClass: "Category-text Category-text-firstVariant",
+    text: "Jetzt entdecken",
+    alt: "Jetzt entdecken",
     width: 160,
     height: 202,
     src: "/secondcategory-2.png",
   },
   {
-    text: "Sale Kleider",
-    alt: "Sale Kleider",
+    textClass: "Category-text Category-text-firstVariant",
+    text: "Jetzt entdecken",
+    alt: "Jetzt entdeckenr",
     width: 160,
     height: 202,
     src: "/secondcategory-3.png",
   },
   {
+    textClass: "Category-text Category-text-firstVariant",
     text: "Summer Sale",
     alt: "Summer Sale",
     width: 160,

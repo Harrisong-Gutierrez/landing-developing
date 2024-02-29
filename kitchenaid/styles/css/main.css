@@ -9596,7 +9596,10 @@ figure {
   .Categories-firstVariant {
     background-color: #fdfefe; }
   .Categories-secondVariant {
-    background-color: #C41230; }
+    background-color: #C41230;
+    background-size: cover;
+    background-image: url("/CATEGORY.png");
+    width: 100%; }
   .Categories-text {
     color: #2E2E2E;
     font-size: 12px;
@@ -9658,7 +9661,6 @@ figure {
     justify-content: space-between;
     width: 100%; }
   .Category-text {
-    color: #C41230;
     font-size: 16px;
     width: 136px;
     line-height: 24px; }

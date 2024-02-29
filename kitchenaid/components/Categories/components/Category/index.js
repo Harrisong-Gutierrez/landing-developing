@@ -2,7 +2,7 @@ import Image from "next/image";
 import PropTypes from "prop-types";
 import { RiArrowRightSLine } from "react-icons/ri";
 
-const Category = ({ text, height, width, alt, src }) => {
+const Category = ({ text, height, width, alt, src, textClass }) => {
   return (
     <div className="Category">
       <Image
@@ -14,7 +14,7 @@ const Category = ({ text, height, width, alt, src }) => {
         src={src}
       />
       <div className="Category-content">
-        <h3 className="Category-text">{text}</h3>
+        <h3 className={textClass}>{text}</h3>
         <div>
           <RiArrowRightSLine className="Category-icon" />
         </div>
@@ -29,6 +29,7 @@ Category.propTypes = {
   width: PropTypes.number.isRequired,
   alt: PropTypes.string.isRequired,
   src: PropTypes.string.isRequired,
+  textClass: PropTypes.string.isRequired,
 };
 
 export default Category;
