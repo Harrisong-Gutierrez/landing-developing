@@ -19,7 +19,8 @@ export const categories = [
   },
   {
     iconClass: "Category-icon Category-text-secondVariant",
-    textClass: "Category-text Category-text-secondVariant",
+    textClass:
+      "Category-text Category-text-secondVariant Category-text-customText",
     text: "Food-Processor-Vorsatz 5KSM2FPA",
     alt: "Food-Processor-Vorsatz 5KSM2FPA",
     width: 160,
@@ -28,7 +29,7 @@ export const categories = [
   },
   {
     iconClass: "Category-icon Category-text-secondVariant",
-    textClass: "Category-text Category-text-secondVariant",
+    textClass: "Category-text Category-text-secondVariant ",
     text: "Ganzmetall-Fleischwolf 5KSMMGA",
     alt: "Ganzmetall-Fleischwolf 5KSMMGA",
     width: 160,

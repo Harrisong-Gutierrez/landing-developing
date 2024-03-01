@@ -1,6 +1,5 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
-import { RiArrowRightSLine } from "react-icons/ri";
 import { TfiArrowCircleRight } from "react-icons/tfi";
 
 const Category = ({ text, height, width, alt, src, textClass, iconClass }) => {

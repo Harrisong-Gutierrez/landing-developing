@@ -9710,6 +9710,8 @@ figure {
     font-family: "Nunito Sans", sans-serif;
     font-weight: 300;
     max-width: 63px; }
+  .Category-text-customText {
+    max-width: 118px; }
 
 .Category-image {
   vertical-align: revert; }
