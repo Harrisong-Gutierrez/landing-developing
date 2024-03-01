@@ -2,6 +2,7 @@ import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
+import Sticky from "@/components/Sticky";
 import { categories, secondcategories } from "@/constants/dataList";
 
 import Head from "next/head";
@@ -61,6 +62,7 @@ export default function Home() {
           mainClass="Offer-main"
           subtitleClass="Offer-subtitle-percentage Offer-secondTitle-separation"
         />
+        <Sticky />
         <Footer
           text="©2023 KitchenAid. Alle Rechte vorbehalten"
           src="/footer-logo.png"

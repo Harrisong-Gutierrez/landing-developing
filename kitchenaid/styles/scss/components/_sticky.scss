@@ -1,0 +1,125 @@
+.Sticky {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+
+    &-text {
+        color: $black;
+        font-size: 14px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: $font-nunito-sans-sans-serif;
+        font-weight: 300;
+        width: 115px;
+        line-height: 18px;
+
+        &-variant {
+            color: $black;
+            font-weight: 700;
+        }
+    }
+
+    &-main {
+        align-items: center;
+        background-color: $red;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &-content {
+        display: flex;
+        width: 328px;
+        background-color: $white;
+        border-radius: 89px;
+        flex-direction: row;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 32px;
+    }
+
+    &-button {
+        font-size: 14px;
+        align-items: center;
+        background-color: $red;
+        border-radius: 66px;
+        line-height: 18px;
+        color: $white;
+        display: flex;
+        font-family: $font-nunito-sans-sans-serif;
+        font-weight: 700;
+        height: 38px;
+        justify-content: center;
+        text-decoration: none;
+        width: 175px;
+        box-shadow: 0px 6px 19px -5px $shadow;
+    }
+
+    @include media-breakpoint-up(md) {
+        &-main {
+            height: 88px;
+            width: 530px;
+        }
+
+        &-text {
+            width: 500px;
+        }
+
+        &-content {
+            height: auto;
+            width: 563px;
+        }
+
+        &-button {
+            height: 40px;
+            width: 200px;
+            font-size: 16px;
+        }
+
+        &-variant {
+            display: inline-block;
+        }
+
+        &-textVariant {
+            display: inline-block;
+        }
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        &-main {
+            width: 100%;
+            margin: 24px 0;
+        }
+
+        &-content {
+            height: 104px;
+            width: 100%;
+        }
+
+        &-button {
+            height: 40px;
+            width: 200px;
+            font-size: 16px;
+        }
+
+        &-text {
+            margin-top: 12px;
+            margin-bottom: 12px;
+            font-size: 14px;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .Sticky {
+        height: auto;
+        margin-bottom: 0;
+    }
+}
