@@ -24,7 +24,7 @@ const Offer = ({
               20
               <span className="Offer-percentage">%</span>
             </h3>
-            <p className={supplementaryClass}>auf das gesamte Sortiment*</p>
+            <p className={supplementaryClass}>auf das gesamte Sortiment</p>
           </div>
 
           <div className={mainClass}>
