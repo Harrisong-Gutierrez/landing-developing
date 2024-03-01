@@ -9804,8 +9804,7 @@ figure {
     box-shadow: 0px 6px 19px -5px rgba(34, 34, 43, 0.26); }
   @media (min-width: 768px) {
     .Sticky-main {
-      height: 88px;
-      width: 530px; }
+      height: 88px; }
     .Sticky-text {
       width: 500px; }
     .Sticky-content {
