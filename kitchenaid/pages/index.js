@@ -1,4 +1,5 @@
 import Categories from "@/components/Categories";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
 import { categories, secondcategories } from "@/constants/dataList";
@@ -59,6 +60,13 @@ export default function Home() {
           titleClass="Offer-secondTitle"
           mainClass="Offer-main"
           subtitleClass="Offer-subtitle-percentage Offer-secondTitle-separation"
+        />
+        <Footer
+          text="©2023 KitchenAid. Alle Rechte vorbehalten"
+          src="/footer-logo.png"
+          alt="footer-image"
+          height={55}
+          width={252.39}
         />
       </main>
     </>
