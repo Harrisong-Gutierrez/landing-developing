@@ -11,43 +11,46 @@ const Offer = ({
   mainClass,
   subtitleClass,
   supplementaryClass,
+  contentClass,
 }) => {
   return (
     <section className={offerClass}>
-      <div className="Offer-content">
-        <h2 className={titleClass}>{title}</h2>
+      <div className={contentClass}>
+        <div className="Offer-container">
+          <h2 className={titleClass}>{title}</h2>
 
-        <div className={mainClass}>
-          <h3 className={subtitleClass}>
-            20
-            <span className="Offer-percentage">%</span>
-          </h3>
-          <p className={supplementaryClass}>auf das gesamte Sortiment*</p>
+          <div className={mainClass}>
+            <h3 className={subtitleClass}>
+              20
+              <span className="Offer-percentage">%</span>
+            </h3>
+            <p className={supplementaryClass}>auf das gesamte Sortiment*</p>
+          </div>
+
+          <div className={mainClass}>
+            <h3 className={subtitleClass}>
+              25
+              <span className="Offer-percentage">%</span>
+            </h3>
+            <p className={supplementaryClass}>
+              auf alle Küchenmaschinen-Vorsätze, -Zubehör und -Schüsseln
+            </p>
+          </div>
+
+          {showCopyCodeAndButton && (
+            <>
+              <CopyCode
+                copyLabel="Zum Kopieren des Codes klicken"
+                copiedLabel="Le code a été copié"
+              />
+              <Button
+                href="/"
+                textContent="JETZT SHOPPEN"
+                styleLink="Offer-button"
+              />
+            </>
+          )}
         </div>
-
-        <div className={mainClass}>
-          <h3 className={subtitleClass}>
-            25
-            <span className="Offer-percentage">%</span>
-          </h3>
-          <p className={supplementaryClass}>
-            auf alle Küchenmaschinen-Vorsätze, -Zubehör und -Schüsseln
-          </p>
-        </div>
-
-        {showCopyCodeAndButton && (
-          <>
-            <CopyCode
-              copyLabel="Zum Kopieren des Codes klicken"
-              copiedLabel="Le code a été copié"
-            />
-            <Button
-              href="/"
-              textContent="JETZT SHOPPEN"
-              styleLink="Offer-button"
-            />
-          </>
-        )}
       </div>
     </section>
   );
@@ -60,6 +63,7 @@ Offer.propTypes = {
   titleClass: PropTypes.bool.isRequired,
   mainClass: PropTypes.bool.isRequired,
   subtitleClass: PropTypes.bool.isRequired,
+  contentClass: PropTypes.bool.isRequired,
 };
 
 export default Offer;

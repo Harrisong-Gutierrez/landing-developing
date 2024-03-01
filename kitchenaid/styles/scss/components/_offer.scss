@@ -17,9 +17,10 @@
         width: 100%;
     }
 
+ 
+
     &-content {
         align-items: center;
-        border-radius: 18px;
         display: flex;
         width: 328px;
         flex-direction: column;
@@ -41,6 +42,15 @@
             margin-top: 171px;
             width: 76%;
         }
+
+
+        &-firstVariant {
+            border-radius: 18px;
+        }
+
+        &-secondVariant {
+            border-radius: 8px;
+        }
     }
 
     &-title {
@@ -58,6 +68,11 @@
         font-size: 24px;
         color: $red;
         line-height: 30px;
+        margin-bottom: 16px;
+
+        &-separation {
+            margin-bottom: 18px;
+        }
     }
 
     &-main {
@@ -125,7 +140,16 @@
         &-percentage {
             font-size: 14px;
             line-height: 18px;
+            font-weight: 700;
         }
+    }
+
+    &-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 48px;
+        margin-bottom: 48px;
     }
 
     &-button {
