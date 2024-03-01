@@ -9355,81 +9355,89 @@ figure {
     top: 100%;
     width: 100%; }
   .Header-logo {
+    align-items: center;
     background-color: #fdfefe;
-    width: 136px;
-    height: 76px;
     border-radius: 6px;
     display: flex;
-    align-items: center;
-    justify-content: center; }
+    height: 76px;
+    justify-content: center;
+    width: 136px; }
   .Header-content {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: auto;
+    padding-bottom: 24px;
     padding-top: 32px;
-    padding-bottom: 24px; }
+    width: auto; }
   .Header-title {
     color: #fdfefe;
-    font-size: 32px;
-    width: 324px;
-    text-align: center;
-    margin: 24px 0;
     font-family: "Nunito Sans", sans-serif;
-    font-weight: 900; }
+    font-size: 32px;
+    font-weight: 900;
+    margin: 24px 0;
+    text-align: center;
+    width: 324px; }
   .Header-paragraph {
     color: #fdfefe;
+    display: flex;
+    flex-direction: column;
     font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
-    text-align: center;
-    width: 328px;
-    display: flex;
-    justify-content: center;
+    font-weight: 300;
     gap: 5px;
-    flex-direction: column;
-    font-weight: 300; }
+    justify-content: center;
+    text-align: center;
+    width: 328px; }
   @media (min-width: 768px) {
     .Header-cover {
       background-image: url(/head-img-x1.jpg);
       background-position: center center;
-      height: 63%;
+      height: 55%;
       width: 100%; }
     .Header-container {
-      top: 90%; }
+      top: 100%; }
     .Header-content {
       width: 500px; }
     .Header-img {
       height: 92px;
-      width: 184px; } }
+      width: 184px; }
+    .Header-title {
+      width: auto;
+      margin: 10px 0; } }
   @media (min-width: 992px) {
     .Header-cover {
       background-image: url(/head-img-x1.jpg);
       background-position: center center;
       background-size: cover;
-      height: 75%;
+      height: 60%;
       width: 100%; }
     .Header-paragraph {
-      width: 100%;
       flex-direction: row;
       font-size: 16px;
-      font-weight: 600; }
+      font-weight: 300;
+      width: 100%; }
     .Header-container {
-      top: 97%; }
+      top: 98%; }
     .Header-logo {
-      top: 50px; }
+      border-radius: 10.62px;
+      height: 92px;
+      width: 184px; }
     .Header-content {
-      width: 708px;
       border-radius: 6px;
-      height: 278px; }
+      width: 708px; }
+    .Header-title {
+      margin: 48px 0; }
     .Header-img {
       height: 92px;
       width: 184px; }
+    .Header-image {
+      height: 80px;
+      width: 70%; }
     .Header-title {
-      font-size: 46px;
-      max-width: 280px;
+      font-size: 42px;
       text-align: center;
-      margin-bottom: 45px; } }
+      width: auto; } }
 
 .Arrow-img {
   animation: moveUpDown 2.5s linear infinite;
@@ -9439,6 +9447,11 @@ figure {
   left: 1.5px;
   width: 24px;
   height: 26px; }
+
+@media (min-width: 992px) {
+  .Arrow-img {
+    width: 32px;
+    height: 35px; } }
 
 @keyframes moveUpDown {
   0%, 100% {
