@@ -9416,7 +9416,8 @@ figure {
       flex-direction: row;
       font-size: 16px;
       font-weight: 300;
-      width: 100%; }
+      width: 100%;
+      line-height: 20px; }
     .Header-container {
       top: 98%; }
     .Header-logo {
@@ -9704,60 +9705,57 @@ figure {
     padding-bottom: 96px;
     padding-top: 92px; } }
 
-.Category-content {
-  align-items: center;
-  display: flex;
-  justify-content: space-between;
-  width: 100%; }
-
-.Category-text {
-  font-size: 16px;
-  width: 136px;
-  line-height: 20px; }
-  .Category-text-firstVariant {
-    color: #fdfefe;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 700; }
-  .Category-text-secondVariant {
-    color: #C41230;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 300;
-    max-width: 63px; }
-  .Category-text-customText {
-    max-width: 118px; }
-
-.Category-image {
-  vertical-align: revert; }
-
-.Category-icon {
-  border-radius: 30px;
-  height: 22.15px;
-  width: 22.15px; }
-  .Category-icon-firstVariant {
-    color: #fdfefe; }
-  .Category-icon-secondVariant {
-    color: #C41230; }
-
-@media (min-width: 768px) {
-  .Category {
-    background-size: cover; } }
-
-@media (min-width: 992px) {
-  .Category-image {
-    height: 278px;
-    width: 220px; }
-  .Category-text {
-    font-size: 20px;
-    height: 48px;
-    line-height: 30px;
-    width: 196px; }
-  .Category-cover {
-    background-size: cover; }
+.Category {
+  margin-bottom: 8px; }
   .Category-content {
-    width: 220px; }
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; }
+  .Category-text {
+    font-size: 16px;
+    width: 136px;
+    line-height: 20px; }
+    .Category-text-firstVariant {
+      color: #fdfefe;
+      font-family: "Nunito Sans", sans-serif;
+      font-weight: 700; }
+    .Category-text-secondVariant {
+      color: #C41230;
+      font-family: "Nunito Sans", sans-serif;
+      font-weight: 300;
+      max-width: 63px; }
+    .Category-text-customText {
+      max-width: 118px; }
+  .Category-image {
+    vertical-align: revert; }
   .Category-icon {
-    height: 24px;
-    width: 24px; } }
+    border-radius: 30px;
+    height: 22.15px;
+    width: 22.15px; }
+    .Category-icon-firstVariant {
+      color: #fdfefe; }
+    .Category-icon-secondVariant {
+      color: #C41230; }
+  @media (min-width: 768px) {
+    .Category {
+      background-size: cover; } }
+  @media (min-width: 992px) {
+    .Category-image {
+      height: 278px;
+      width: 220px; }
+    .Category-text {
+      font-size: 20px;
+      height: 48px;
+      line-height: 30px;
+      width: 196px; }
+    .Category-cover {
+      background-size: cover; }
+    .Category-content {
+      width: 220px; }
+    .Category-icon {
+      height: 24px;
+      width: 24px; } }
 
 @media (min-width: 992px) {
   .Category {
