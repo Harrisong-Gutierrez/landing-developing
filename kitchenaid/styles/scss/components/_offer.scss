@@ -2,12 +2,17 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding: 48px 0;
+
 
     &-firstImgVariant {
         background-image: $offer-img;
         background-repeat: no-repeat;
         background-size: cover;
+
+        @include media-breakpoint-up(lg) { 
+            background-image: $second-offer-desktop-img;
+         }
+    
     }
 
     &-secondImgVariant {
@@ -39,7 +44,7 @@
             display: flex;
             height: 534px;
             justify-content: center;
-            margin-top: 171px;
+  
             width: 76%;
         }
 
@@ -199,6 +204,6 @@
 
 @include media-breakpoint-up(lg) {
     .Offer {
-        padding-bottom: 100px;
+     
     }
 }
