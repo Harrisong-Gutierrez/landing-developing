@@ -133,6 +133,7 @@
 
         &-firstVariant {
             margin-bottom: 24px;
+            font-size: 18px;
         }
 
         &-secondVariant {
@@ -205,6 +206,10 @@
             margin-bottom: 32px;
             margin-top: 96px;
             width: auto;
+        }
+
+        &-copyBoxContent {
+            font-size: 18px;
         }
     }
 }

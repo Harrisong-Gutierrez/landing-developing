@@ -9586,7 +9586,8 @@ figure {
       line-height: 18px;
       text-align: center; }
     .Offer-subtitle-firstVariant {
-      margin-bottom: 24px; }
+      margin-bottom: 24px;
+      font-size: 18px; }
     .Offer-subtitle-secondVariant {
       margin-bottom: 24px; }
     .Offer-subtitle-percentage {
@@ -9639,7 +9640,9 @@ figure {
       line-height: 30px;
       margin-bottom: 32px;
       margin-top: 96px;
-      width: auto; } }
+      width: auto; }
+    .Offer-copyBoxContent {
+      font-size: 18px; } }
 
 .Categories {
   align-items: center;
