@@ -9909,10 +9909,12 @@ figure {
 
 @media (min-width: 768px) {
   .Footer {
-    justify-content: flex-start; } }
+    justify-content: flex-start;
+    height: 495px; } }
 
 @media (min-width: 992px) {
   .Footer {
-    padding-bottom: 5px; } }
+    padding-bottom: 5px;
+    height: auto; } }
 
 /*# sourceMappingURL=main.css.map */

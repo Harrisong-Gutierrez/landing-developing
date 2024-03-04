@@ -55,6 +55,7 @@
 @include media-breakpoint-up(md) {
     .Footer {
         justify-content: flex-start;
+        height: 495px;
     }
 }
 
@@ -62,5 +63,6 @@
 @include media-breakpoint-up(lg) {
     .Footer {
         padding-bottom: 5px;
+        height: auto;
     }
 }
