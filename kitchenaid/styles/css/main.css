@@ -9623,8 +9623,8 @@ figure {
     .Offer-content {
       border-radius: 16px; }
     .Offer-container {
-      margin-bottom: 0;
-      margin-top: 0; }
+      margin-bottom: 96px;
+      margin-top: 96px; }
     .Offer-button {
       border-radius: 73px;
       font-size: 18px;
@@ -9641,8 +9641,15 @@ figure {
       margin-bottom: 32px;
       margin-top: 96px;
       width: auto; }
+    .Offer-secondTitle {
+      font-size: 32px;
+      line-height: 38px; }
     .Offer-copyBoxContent {
-      font-size: 18px; } }
+      font-size: 18px; }
+    .Offer-secondImgVariant {
+      padding: 96px 0; }
+    .Offer-content-secondVariant {
+      width: 1440px; } }
 
 .Categories {
   align-items: center;
