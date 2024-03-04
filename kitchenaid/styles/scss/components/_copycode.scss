@@ -17,15 +17,13 @@
         color: $grey;
         font-size: 10px;
         line-height: 12px;
-        margin-top: 8px;
+        margin-top: 12px;
     }
 }
 
 @include media-breakpoint-up(lg) {
     .CopyCode {
-        gap: 12px;
-        gap: 12px;
-        margin-bottom: 48px;
+        margin-bottom: 32px;
         height: auto;
     }
 }

@@ -64,7 +64,7 @@
     @include media-breakpoint-up(lg) {
         &-title {
             font-size: 32px;
-            height: 21px;
+            height: 23px;
             line-height: 38px;
             margin-bottom: 16px;
             width: 100%;
@@ -90,6 +90,6 @@
 @include media-breakpoint-up(lg) {
     .Categories {
         padding-bottom: 96px;
-        padding-top: 92px;
+        padding-top: 96px;
     }
 }

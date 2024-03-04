@@ -1,5 +1,4 @@
 .Category {
-
     margin-bottom: 8px;
 
     &-content {
@@ -62,10 +61,8 @@
         }
 
         &-text {
-            font-size: 20px;
-            height: 48px;
-            line-height: 30px;
-            width: 196px;
+            font-size: 18px;
+            width: 100%;
         }
 
         &-cover {
@@ -79,6 +76,14 @@
         &-icon {
             height: 24px;
             width: 24px;
+        }
+
+        &-text-customText {
+            max-width: 100%;
+        }
+
+        &-text-secondVariant {
+            max-width: 100%;
         }
     }
 }

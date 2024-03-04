@@ -3,36 +3,35 @@
     display: flex;
     justify-content: center;
 
-
     &-firstImgVariant {
         background-image: $offer-img;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 48px 0;
 
-        @include media-breakpoint-up(lg) { 
+        @include media-breakpoint-up(lg) {
             background-image: $second-offer-desktop-img;
-         }
-    
+            padding: 96px 0;
+        }
     }
 
     &-secondImgVariant {
         background-image: $offer-img2;
         background-repeat: no-repeat;
         background-size: cover;
+        padding: 48px 0;
         width: 100%;
     }
 
- 
-
     &-content {
         align-items: center;
+        backdrop-filter: blur(13.3999996185px);
+        background: rgba(255, 255, 255, 0.7);
         display: flex;
-        width: 328px;
+        filter: drop-shadow(0px 6px 19px $shadow);
         flex-direction: column;
         justify-content: center;
-        filter: drop-shadow(0px 6px 19px $shadow);
-        background: rgba(255, 255, 255, 0.7);
-        backdrop-filter: blur(13.3999996185px);
+        width: 328px;
 
         @include media-breakpoint-up(md) {
             width: 80%;
@@ -42,9 +41,7 @@
         @include media-breakpoint-up(lg) {
             align-items: center;
             display: flex;
-            height: 534px;
             justify-content: center;
-  
             width: 76%;
         }
 
@@ -61,17 +58,17 @@
     &-title {
         align-items: center;
         color: $red;
-        width: 296px;
         display: flex;
+        font-family: "Nunito Sans", sans-serif;
         font-size: 14px;
         justify-content: center;
-        font-family: "Nunito Sans", sans-serif;
         margin: 48px 0;
+        width: 296px;
     }
 
     &-secondTitle {
-        font-size: 24px;
         color: $red;
+        font-size: 24px;
         line-height: 30px;
         margin-bottom: 16px;
 
@@ -89,6 +86,7 @@
     &-copyBox {
         border: $grey-cozy 1px solid;
         border-radius: 6px;
+        border-radius: $grey-cozy;
         color: $black;
         font-family: $font-hk-grotesk-bold;
         letter-spacing: 1.6px;
@@ -96,7 +94,6 @@
         padding: 9px 24px;
         text-align: center;
         text-decoration: none;
-        border-radius: $grey-cozy;
     }
 
     &-copyBoxContent {
@@ -112,25 +109,25 @@
         font-family: $font-nunito-sans-sans-serif;
         font-size: 48px;
         font-weight: 900;
-        text-align: center;
         line-height: 52px;
+        text-align: center;
 
         &-supplementary {
+            color: $red;
+            display: block;
             font-family: $font-nunito-sans-sans-serif;
             font-size: 16px;
             font-weight: 300;
             line-height: 20px;
             text-align: center;
             width: 296px;
-            color: $red;
-            display: block;
         }
 
         &-supplementaryVarient {
-            font-size: 14px;
-            line-height: 18px;
             color: $black;
+            font-size: 14px;
             font-weight: 300;
+            line-height: 18px;
             text-align: center;
         }
 
@@ -144,42 +141,35 @@
 
         &-percentage {
             font-size: 14px;
-            line-height: 18px;
             font-weight: 700;
+            line-height: 18px;
         }
     }
 
     &-container {
+        align-items: center;
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-top: 48px;
         margin-bottom: 48px;
+        margin-top: 48px;
     }
 
     &-button {
         align-items: center;
         background-color: $red;
+        border-radius: 39px;
+        box-shadow: 0px 6px 19px -5px $shadow;
         color: $white;
         display: flex;
         font-family: $font-hk-grotesk-bold;
         font-size: 16px;
+        height: 42px;
         justify-content: center;
+        line-height: 20px;
+        margin-bottom: 48px;
+        margin-top: 48px;
         text-decoration: none;
         width: 173px;
-        height: 42px;
-        line-height: 20px;
-        border-radius: 39px;
-        margin: 48px 0;
-        box-shadow: 0px 6px 19px -5px $shadow;
-
-        @include media-breakpoint-up(lg) {
-            font-size: 18px;
-            height: 52px;
-            line-height: 22px;
-            width: 160px;
-            margin-top: 0;
-        }
     }
 
     &-icon svg {
@@ -192,18 +182,33 @@
             border-radius: 16px;
         }
 
+        &-container {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
         &-button {
-            padding-left: 30px;
-            padding-right: 30px;
-            border: $grey-cozy;
+            border-radius: 73px;
             font-size: 18px;
-            border-radius: 2px;
+            height: 52px;
+            line-height: 22px;
+            margin-bottom: 92px;
+            margin-top: 0;
+            width: 207px;
+        }
+
+        &-title {
+            font-family: $font-nunito-sans-sans-serif;
+            font-size: 22px;
+            font-weight: 300;
+            line-height: 30px;
+            margin-bottom: 32px;
+            margin-top: 96px;
+            width: auto;
         }
     }
 }
 
 @include media-breakpoint-up(lg) {
-    .Offer {
-     
-    }
+    .Offer {}
 }

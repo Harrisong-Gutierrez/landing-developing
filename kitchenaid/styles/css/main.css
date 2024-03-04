@@ -9478,13 +9478,11 @@ figure {
     color: #626262;
     font-size: 10px;
     line-height: 12px;
-    margin-top: 8px; }
+    margin-top: 12px; }
 
 @media (min-width: 992px) {
   .CopyCode {
-    gap: 12px;
-    gap: 12px;
-    margin-bottom: 48px;
+    margin-bottom: 32px;
     height: auto; } }
 
 .Offer {
@@ -9494,24 +9492,27 @@ figure {
   .Offer-firstImgVariant {
     background-image: url(/offer-background.png);
     background-repeat: no-repeat;
-    background-size: cover; }
+    background-size: cover;
+    padding: 48px 0; }
     @media (min-width: 992px) {
       .Offer-firstImgVariant {
-        background-image: url(/second-offer-cover.png); } }
+        background-image: url(/second-offer-cover.png);
+        padding: 96px 0; } }
   .Offer-secondImgVariant {
     background-image: url(/offer-background2.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 48px 0;
     width: 100%; }
   .Offer-content {
     align-items: center;
+    backdrop-filter: blur(13.4px);
+    background: rgba(255, 255, 255, 0.7);
     display: flex;
-    width: 328px;
+    filter: drop-shadow(0px 6px 19px rgba(34, 34, 43, 0.26));
     flex-direction: column;
     justify-content: center;
-    filter: drop-shadow(0px 6px 19px rgba(34, 34, 43, 0.26));
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(13.4px); }
+    width: 328px; }
     @media (min-width: 768px) {
       .Offer-content {
         width: 80%; } }
@@ -9519,7 +9520,6 @@ figure {
       .Offer-content {
         align-items: center;
         display: flex;
-        height: 534px;
         justify-content: center;
         width: 76%; } }
     .Offer-content-firstVariant {
@@ -9529,15 +9529,15 @@ figure {
   .Offer-title {
     align-items: center;
     color: #C41230;
-    width: 296px;
     display: flex;
+    font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
     justify-content: center;
-    font-family: "Nunito Sans", sans-serif;
-    margin: 48px 0; }
+    margin: 48px 0;
+    width: 296px; }
   .Offer-secondTitle {
-    font-size: 24px;
     color: #C41230;
+    font-size: 24px;
     line-height: 30px;
     margin-bottom: 16px; }
     .Offer-secondTitle-separation {
@@ -9549,14 +9549,14 @@ figure {
   .Offer-copyBox {
     border: #464650 1px solid;
     border-radius: 6px;
+    border-radius: #464650;
     color: #2E2E2E;
     font-family: "HKGrotesk Bold";
     letter-spacing: 1.6px;
     line-height: 20px;
     padding: 9px 24px;
     text-align: center;
-    text-decoration: none;
-    border-radius: #464650; }
+    text-decoration: none; }
   .Offer-copyBoxContent {
     align-items: center;
     column-gap: 8px;
@@ -9568,22 +9568,22 @@ figure {
     font-family: "Nunito Sans", sans-serif;
     font-size: 48px;
     font-weight: 900;
-    text-align: center;
-    line-height: 52px; }
+    line-height: 52px;
+    text-align: center; }
     .Offer-subtitle-supplementary {
+      color: #C41230;
+      display: block;
       font-family: "Nunito Sans", sans-serif;
       font-size: 16px;
       font-weight: 300;
       line-height: 20px;
       text-align: center;
-      width: 296px;
-      color: #C41230;
-      display: block; }
+      width: 296px; }
     .Offer-subtitle-supplementaryVarient {
-      font-size: 14px;
-      line-height: 18px;
       color: #2E2E2E;
+      font-size: 14px;
       font-weight: 300;
+      line-height: 18px;
       text-align: center; }
     .Offer-subtitle-firstVariant {
       margin-bottom: 24px; }
@@ -9591,48 +9591,55 @@ figure {
       margin-bottom: 24px; }
     .Offer-subtitle-percentage {
       font-size: 14px;
-      line-height: 18px;
-      font-weight: 700; }
+      font-weight: 700;
+      line-height: 18px; }
   .Offer-container {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 48px;
-    margin-bottom: 48px; }
+    margin-bottom: 48px;
+    margin-top: 48px; }
   .Offer-button {
     align-items: center;
     background-color: #C41230;
+    border-radius: 39px;
+    box-shadow: 0px 6px 19px -5px rgba(34, 34, 43, 0.26);
     color: #fdfefe;
     display: flex;
     font-family: "HKGrotesk Bold";
     font-size: 16px;
-    justify-content: center;
-    text-decoration: none;
-    width: 173px;
     height: 42px;
+    justify-content: center;
     line-height: 20px;
-    border-radius: 39px;
-    margin: 48px 0;
-    box-shadow: 0px 6px 19px -5px rgba(34, 34, 43, 0.26); }
-    @media (min-width: 992px) {
-      .Offer-button {
-        font-size: 18px;
-        height: 52px;
-        line-height: 22px;
-        width: 160px;
-        margin-top: 0; } }
+    margin-bottom: 48px;
+    margin-top: 48px;
+    text-decoration: none;
+    width: 173px; }
   .Offer-icon svg {
     height: 20px;
     width: 20px; }
   @media (min-width: 992px) {
     .Offer-content {
       border-radius: 16px; }
+    .Offer-container {
+      margin-bottom: 0;
+      margin-top: 0; }
     .Offer-button {
-      padding-left: 30px;
-      padding-right: 30px;
-      border: #464650;
+      border-radius: 73px;
       font-size: 18px;
-      border-radius: 2px; } }
+      height: 52px;
+      line-height: 22px;
+      margin-bottom: 92px;
+      margin-top: 0;
+      width: 207px; }
+    .Offer-title {
+      font-family: "Nunito Sans", sans-serif;
+      font-size: 22px;
+      font-weight: 300;
+      line-height: 30px;
+      margin-bottom: 32px;
+      margin-top: 96px;
+      width: auto; } }
 
 .Categories {
   align-items: center;
@@ -9683,7 +9690,7 @@ figure {
   @media (min-width: 992px) {
     .Categories-title {
       font-size: 32px;
-      height: 21px;
+      height: 23px;
       line-height: 38px;
       margin-bottom: 16px;
       width: 100%; }
@@ -9700,7 +9707,7 @@ figure {
 @media (min-width: 992px) {
   .Categories {
     padding-bottom: 96px;
-    padding-top: 92px; } }
+    padding-top: 96px; } }
 
 .Category {
   margin-bottom: 8px; }
@@ -9742,17 +9749,19 @@ figure {
       height: 278px;
       width: 220px; }
     .Category-text {
-      font-size: 20px;
-      height: 48px;
-      line-height: 30px;
-      width: 196px; }
+      font-size: 18px;
+      width: 100%; }
     .Category-cover {
       background-size: cover; }
     .Category-content {
       width: 220px; }
     .Category-icon {
       height: 24px;
-      width: 24px; } }
+      width: 24px; }
+    .Category-text-customText {
+      max-width: 100%; }
+    .Category-text-secondVariant {
+      max-width: 100%; } }
 
 @media (min-width: 992px) {
   .Category {
