@@ -9500,9 +9500,9 @@ figure {
         padding: 96px 0; } }
   .Offer-secondImgVariant {
     background-image: url(/offer-background2.png);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
     padding: 48px 0;
     width: 100%; }
   .Offer-content {
@@ -9587,8 +9587,8 @@ figure {
       line-height: 18px;
       text-align: center; }
     .Offer-subtitle-firstVariant {
-      margin-bottom: 24px;
-      font-size: 18px; }
+      font-size: 18px;
+      margin-bottom: 24px; }
     .Offer-subtitle-secondVariant {
       margin-bottom: 24px; }
     .Offer-subtitle-percentage {
@@ -9626,12 +9626,14 @@ figure {
     .Offer-container {
       margin-bottom: 96px;
       margin-top: 96px; }
+    .Offer-subtitle {
+      line-height: 41.5px; }
     .Offer-button {
       border-radius: 73px;
       font-size: 18px;
       height: 52px;
       line-height: 22px;
-      margin-bottom: 92px;
+      margin-bottom: 0;
       margin-top: 0;
       width: 207px; }
     .Offer-title {
@@ -9640,7 +9642,7 @@ figure {
       font-weight: 300;
       line-height: 30px;
       margin-bottom: 32px;
-      margin-top: 96px;
+      margin-top: 0;
       width: auto; }
     .Offer-secondTitle {
       font-size: 32px;

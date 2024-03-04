@@ -17,9 +17,9 @@
 
     &-secondImgVariant {
         background-image: $offer-img2;
+        background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
         padding: 48px 0;
         width: 100%;
     }
@@ -133,8 +133,8 @@
         }
 
         &-firstVariant {
-            margin-bottom: 24px;
             font-size: 18px;
+            margin-bottom: 24px;
         }
 
         &-secondVariant {
@@ -189,12 +189,16 @@
             margin-top: 96px;
         }
 
+        &-subtitle {
+            line-height: 41.5px;
+        }
+
         &-button {
             border-radius: 73px;
             font-size: 18px;
             height: 52px;
             line-height: 22px;
-            margin-bottom: 92px;
+            margin-bottom: 0;
             margin-top: 0;
             width: 207px;
         }
@@ -205,7 +209,7 @@
             font-weight: 300;
             line-height: 30px;
             margin-bottom: 32px;
-            margin-top: 96px;
+            margin-top: 0;
             width: auto;
         }
 
