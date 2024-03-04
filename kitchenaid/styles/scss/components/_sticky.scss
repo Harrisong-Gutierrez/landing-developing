@@ -62,14 +62,6 @@
     }
 
     @include media-breakpoint-up(md) {
-        &-main {
-            height: 88px;
-        }
-
-        &-text {
-            width: 500px;
-        }
-
         &-content {
             height: auto;
             width: 563px;
@@ -94,24 +86,28 @@
     @include media-breakpoint-up(lg) {
         &-main {
             width: 100%;
-            margin: 24px 0;
         }
 
         &-content {
             height: 104px;
-            width: 100%;
+            height: 88px;
+            width: 563px;
+            align-items: center;
+            gap: 24px;
         }
 
         &-button {
             height: 40px;
-            width: 200px;
-            font-size: 16px;
+            width: 159px;
+            font-size: 14px;
+            line-height: 18px;
         }
 
         &-text {
-            margin-top: 12px;
-            margin-bottom: 12px;
-            font-size: 14px;
+            font-size: 15px;
+            flex-direction: row;
+            width: 45%;
+            justify-content: right;
         }
     }
 }

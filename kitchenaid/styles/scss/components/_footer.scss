@@ -32,18 +32,28 @@
 
     @include media-breakpoint-up(lg) {
         &-image {
-            margin: 20px;
+            margin: 25px;
+            height: 55px;
+            width: 243px;
         }
 
         &-text {
             line-height: 16px;
+            font-size: 8px;
+            width: 246px;
+        }
+
+        &-paragraph {
+            margin: 72px 0;
+            font-size: 14px;
+            line-height: 18px;
+            width: 1440px;
         }
     }
 }
 
 @include media-breakpoint-up(md) {
     .Footer {
-        height: 300px;
         justify-content: flex-start;
     }
 }
@@ -51,7 +61,6 @@
 
 @include media-breakpoint-up(lg) {
     .Footer {
-        height: 148px;
         padding-bottom: 5px;
     }
 }
