@@ -15,6 +15,10 @@
         background-size: cover;
         background-image: url("/CATEGORY.png");
         width: 100%;
+
+        @include media-breakpoint-up(lg) {
+            background-image: url("/category-desktop.png");
+        }
     }
 
     &-text {

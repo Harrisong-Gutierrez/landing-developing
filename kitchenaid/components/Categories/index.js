@@ -31,7 +31,10 @@ export const Categories = ({
     <section className={catClass}>
       <div className="Categories-head">
         <h2 className={titleClass}>{title}</h2>
-        <p className={paragraphClass}>{text}</p>
+        <p className={paragraphClass}>
+          <span>textVariant</span>
+          {text}
+        </p>
       </div>
       <div className="Categories-content">{renderCategory()}</div>
     </section>

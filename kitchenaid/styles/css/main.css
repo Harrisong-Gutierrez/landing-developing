@@ -9668,6 +9668,9 @@ figure {
     background-size: cover;
     background-image: url("/CATEGORY.png");
     width: 100%; }
+    @media (min-width: 992px) {
+      .Categories-secondVariant {
+        background-image: url("/category-desktop.png"); } }
   .Categories-text {
     font-size: 16px;
     text-align: center;
