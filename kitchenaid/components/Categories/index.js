@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import Category from "./components/Category";
-
 import { v4 as uuidv4 } from "uuid";
 
 export const Categories = ({
