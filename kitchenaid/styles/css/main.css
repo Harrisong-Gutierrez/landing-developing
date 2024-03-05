@@ -9669,12 +9669,15 @@ figure {
     background-image: url("/CATEGORY.png");
     width: 100%; }
   .Categories-text {
-    color: #2E2E2E;
     font-size: 16px;
     text-align: center;
     width: 328px;
     line-height: 20px;
     font-weight: 300; }
+    .Categories-text-firstVariant {
+      color: #fdfefe; }
+    .Categories-text-secondVariant {
+      color: #2E2E2E; }
   .Categories-title {
     font-size: 24px;
     height: auto;

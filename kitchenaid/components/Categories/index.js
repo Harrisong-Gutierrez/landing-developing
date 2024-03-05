@@ -10,6 +10,7 @@ export const Categories = ({
   categoryArr,
   catClass,
   titleClass,
+  paragraphClass,
 }) => {
   const renderCategory = () => {
     return categoryArr.map((category) => (
@@ -30,7 +31,7 @@ export const Categories = ({
     <section className={catClass}>
       <div className="Categories-head">
         <h2 className={titleClass}>{title}</h2>
-        <p className="Categories-text">{text}</p>
+        <p className={paragraphClass}>{text}</p>
       </div>
       <div className="Categories-content">{renderCategory()}</div>
     </section>
@@ -42,6 +43,8 @@ Categories.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   titleClass: PropTypes.string.isRequired,
+  textClass: PropTypes.string.isRequired,
+  paragraphClass: PropTypes.string.isRequired,
 };
 
 export default Categories;

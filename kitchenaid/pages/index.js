@@ -36,14 +36,17 @@ export default function Home() {
         />
 
         <Categories
+          paragraphClass="Categories-text Categories-text-firstVariant"
           textClass="Category-text"
           titleClass="Categories-title Categories-title-firstVariant"
           catClass="Categories Categories-secondVariant"
           categoryArr={secondcategories}
           title="Das perfekte Geschenk zu Weihnachten"
           Categories
+          text="Dieses Weihnachten lassen Sie Ihrer Kreativität freien Lauf – mit einer personalisierten Küchenmaschine und passendem Zubehör."
         />
         <Categories
+          paragraphClass="Categories-text Categories-text-secondVariant"
           textClass="Category-text"
           titleClass="Categories-title Categories-title-secondVariant"
           catClass="Categories "

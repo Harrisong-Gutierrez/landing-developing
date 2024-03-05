@@ -18,12 +18,19 @@
     }
 
     &-text {
-        color: $black;
         font-size: 16px;
         text-align: center;
         width: 328px;
         line-height: 20px;
         font-weight: 300;
+
+        &-firstVariant {
+            color: $white;
+        }
+
+        &-secondVariant {
+            color: $black;
+        }
     }
 
     &-title {
