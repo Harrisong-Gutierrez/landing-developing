@@ -9506,6 +9506,9 @@ figure {
     background-size: cover;
     padding: 48px 0;
     width: 100%; }
+    @media (min-width: 992px) {
+      .Offer-secondImgVariant {
+        background-image: url(/offer-background-desktop.png); } }
   .Offer-content {
     align-items: center;
     backdrop-filter: blur(13.4px);
