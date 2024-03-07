@@ -3,6 +3,7 @@ import React, { useRef, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
+import "swiper/css/effect-flip";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
@@ -12,6 +13,7 @@ export default function App() {
   return (
     <>
       <Swiper
+        effect={"flip"}
         cssMode={true}
         navigation={true}
         pagination={true}
