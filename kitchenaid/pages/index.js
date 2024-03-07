@@ -1,7 +1,9 @@
+import Carousel from "@/components/Carousel";
 import Categories from "@/components/Categories";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
+
 import Sticky from "@/components/Sticky";
 import { categories, secondcategories } from "@/constants/dataList";
 
@@ -46,6 +48,7 @@ export default function Home() {
           Categories
           text=" lassen Sie Ihrer Kreativität freien Lauf – mit einer personalisierten Küchenmaschine und passendem Zubehör."
         />
+        <Carousel />
         <Categories
           paragraphClass="Categories-text Categories-text-secondVariant"
           textClass="Category-text"
