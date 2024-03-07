@@ -1,8 +1,11 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar } from "swiper/modules";
+import SwiperCore, { Navigation, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+
+SwiperCore.use([Navigation, Pagination]);
+
 const Carousel = ({
   spaceBetween,
   slidesPerView,
@@ -22,27 +25,29 @@ const Carousel = ({
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            alt="Imagen 1"
+            src="https://swiperjs.com/demos/images/nature-2.jpg"
+            alt="Imagen 2"
           />
         </SwiperSlide>
         <SwiperSlide>
           <img
-            src="https://swiperjs.com/demos/images/nature-1.jpg"
-            alt="Imagen 1"
+            src="https://swiperjs.com/demos/images/nature-3.jpg"
+            alt="Imagen 3"
           />
         </SwiperSlide>
       </>
     );
   };
+
   return (
     <Swiper
       spaceBetween={spaceBetween}
       slidesPerView={slidesPerView}
-      onSlideChange
-      onSwiper={(swiper) => <></>}
-      pagination={true}
-      modules={[Pagination]}
+      onSlideChange={onSlideChange}
+      onSwiper={onSwiper}
+      navigation
+      pagination={{ clickable: true }}
+      modules={[Navigation, Pagination]}
       breakpoints={{
         340: {
           slidesPerView: 1,
@@ -62,4 +67,5 @@ const Carousel = ({
     </Swiper>
   );
 };
+
 export default Carousel;
