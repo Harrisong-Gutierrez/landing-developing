@@ -6,14 +6,7 @@ import "swiper/css/pagination";
 
 SwiperCore.use([Navigation, Pagination]);
 
-const Carousel = ({
-  spaceBetween,
-  slidesPerView,
-  onSlideChange,
-  onSwiper,
-  modules,
-  items,
-}) => {
+const Carousel = ({ spaceBetween, slidesPerView, onSlideChange, onSwiper }) => {
   const renderItems = () => {
     return (
       <>
@@ -47,7 +40,6 @@ const Carousel = ({
       onSwiper={onSwiper}
       navigation
       pagination={{ clickable: true }}
-      modules={[Navigation, Pagination]}
       breakpoints={{
         340: {
           slidesPerView: 1,
