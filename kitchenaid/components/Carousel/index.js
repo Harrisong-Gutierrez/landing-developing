@@ -33,33 +33,33 @@ const Carousel = ({ title = "" }) => {
         <SwiperSlide>
           <div className="swiper-card">
             <Card />
-            <div className="swiper-text" data-swiper-parallax="-100">
-              <p>Liebesapfelrot</p>
-            </div>
+            <p className="swiper-text" data-swiper-parallax="-100">
+              Liebesapfelrot
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
             <Card />
-            <div className="swiper-text" data-swiper-parallax="-100">
-              <p>Liebesapfelrot</p>
-            </div>
+            <p className="swiper-text" data-swiper-parallax="-100">
+              Liebesapfelrot
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
             <Card />
-            <div className="swiper-text" data-swiper-parallax="-100">
-              <p>Liebesapfelrot</p>
-            </div>
+            <p className="swiper-text" data-swiper-parallax="-100">
+              Liebesapfelrot
+            </p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
             <Card />
-            <div className="swiper-text" data-swiper-parallax="-100">
-              <p>Liebesapfelrot</p>
-            </div>
+            <p className="swiper-text" data-swiper-parallax="-100">
+              Liebesapfelrot
+            </p>
           </div>
         </SwiperSlide>
       </Swiper>
