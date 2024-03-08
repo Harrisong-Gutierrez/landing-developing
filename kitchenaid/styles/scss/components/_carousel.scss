@@ -64,5 +64,22 @@
 }
 
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 25px;
+    height: 25px;
+}
+
+.swiper-pagination-bullet:nth-child(1) {
     background-color: red;
+}
+
+.swiper-pagination-bullet:nth-child(2) {
+    background-color: blue;
+}
+
+.swiper-pagination-bullet:nth-child(3) {
+    background-color: green;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet:nth-child(4) {
+    background-color: yellow; /* Cuarto elemento */
 }

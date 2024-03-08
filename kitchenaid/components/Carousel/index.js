@@ -40,9 +40,6 @@ const Carousel = ({ title = "" }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
-            <div className="swiper-title" data-swiper-parallax="-300">
-              Farben passend zu deiner Küche
-            </div>
             <Card />
             <div className="swiper-text" data-swiper-parallax="-100">
               <p>Liebesapfelrot</p>
@@ -51,9 +48,14 @@ const Carousel = ({ title = "" }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
-            <div className="swiper-title" data-swiper-parallax="-300">
-              Farben passend zu deiner Küche
+            <Card />
+            <div className="swiper-text" data-swiper-parallax="-100">
+              <p>Liebesapfelrot</p>
             </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="swiper-card">
             <Card />
             <div className="swiper-text" data-swiper-parallax="-100">
               <p>Liebesapfelrot</p>
