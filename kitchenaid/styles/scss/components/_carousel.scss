@@ -2,6 +2,10 @@
     height: 506px;
     width: 100%;
 
+    &-image {
+        margin-top: 175px;
+    }
+
     &-slide {
         align-items: center;
         -webkit-box-sizing: border-box;
@@ -35,6 +39,7 @@
         position: absolute;
         text-align: center;
         top: 48px;
+        height: 80px;
     }
 
     &-text {
@@ -42,6 +47,8 @@
         font-size: 14px;
         font-weight: 300;
         line-height: auto;
+        margin-top: 20px;
+        padding-bottom: 106px;
     }
 
     &-backgroundimg {
@@ -60,6 +67,10 @@
             background-size: cover;
         }
     }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    margin: 20px 0;
 }
 
 .swiper-backface-hidden .swiper-slide {
