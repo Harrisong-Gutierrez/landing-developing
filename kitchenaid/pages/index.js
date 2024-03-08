@@ -48,7 +48,9 @@ export default function Home() {
           Categories
           text=" lassen Sie Ihrer Kreativität freien Lauf – mit einer personalisierten Küchenmaschine und passendem Zubehör."
         />
-        <Carousel />
+        <Carousel 
+          title="Farben passend zu deiner Küche"
+        />
         <Categories
           paragraphClass="Categories-text Categories-text-secondVariant"
           textClass="Category-text"
