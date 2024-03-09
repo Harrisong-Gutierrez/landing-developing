@@ -76,6 +76,8 @@
   @include media-breakpoint-up(lg) {
     &-title {
         height: 108px;
+        font-size: 32px;
+        line-height: 38px;
         width: 100%;
         top: 108px;
         max-width: 100%;
@@ -83,6 +85,8 @@
 
     &-image {
         margin-top: 196px;
+        width: 386px;
+        height: 369px;
     }
 
     &-card {
@@ -91,6 +95,9 @@
 
     &-text {
         padding-bottom: 139px;
+        padding-top: 35px;
+        font-size: 22px;
+        line-height: 30px;
     }
   }
 }
