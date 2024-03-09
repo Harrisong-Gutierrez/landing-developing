@@ -1,100 +1,134 @@
 .swiper {
-    height: 506px;
-    width: 100%;
+  height: 506px;
+  width: 100%;
 
-    &-image {
-        margin-top: 175px;
+  @include media-breakpoint-up(lg) {
+    height: 100%;
+  }
+
+  &-image {
+    margin-top: 175px;
+  }
+
+  &-slide {
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: $white;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 18px;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    transition-property: transform;
+  }
+
+  &-card {
+    align-items: center;
+    background: $transparent;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+   
+  }
+
+  &-title {
+    font-family: $font-nunito-sans-sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+    max-width: 328px;
+    margin: 0 auto;
+    color: $white;
+    position: absolute;
+    text-align: center;
+    top: 48px;
+    height: 80px;
+  }
+
+  &-text {
+    font-family: $font-nunito-sans-sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: auto;
+    margin-top: 20px;
+    padding-bottom: 106px;
+  }
+
+  &-backgroundimg {
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: url(/carousel-background-mobile.png);
+
+    @include media-breakpoint-up(lg) {
+      background-image: url(/carousel-background-desktop.png);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    &-title {
+        height: 108px;
+        width: 100%;
+        top: 108px;
+        max-width: 100%;
     }
 
-    &-slide {
-        align-items: center;
-        -webkit-box-sizing: border-box;
-        box-sizing: border-box;
-        color: $white;
-        display: flex;
-        flex-shrink: 0;
-        font-size: 18px;
-        height: 100%;
-        justify-content: center;
-        position: relative;
-        transition-property: transform;
+    &-image {
+        margin-top: 196px;
     }
 
     &-card {
-        align-items: center;
-        background: $transparent;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    &-title {
-        font-family: $font-nunito-sans-sans-serif;
-        font-size: 24px;
-        line-height: 30px;
-        font-weight: 700;
-        max-width: 328px;
-        margin: 0 auto;
-        color: $white;
-        position: absolute;
-        text-align: center;
-        top: 48px;
-        height: 80px;
+        height: 100%;
     }
 
     &-text {
-        font-family: $font-nunito-sans-sans-serif;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: auto;
-        margin-top: 20px;
-        padding-bottom: 106px;
+        padding-bottom: 139px;
     }
-
-    &-backgroundimg {
-        background-position: center;
-        position: relative;
-        background-size: cover;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        background-image: url(/carousel-background-mobile.png);
-
-        @include media-breakpoint-up(lg) {
-            background-image: url(/carousel-background-desktop.png);
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    }
+  }
 }
 
-.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
-    margin: 20px 0;
+
+.swiper-pagination-horizontal {
+  margin: 20px 0;
+
+  @include media-breakpoint-up(lg) {
+    height: 44px;
+    margin: 60px 0;
+  }
 }
 
 .swiper-backface-hidden .swiper-slide {
-    display: flex;
+  display: flex;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 25px;
-    height: 25px;
-    border: 2px solid $white;
+
+.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 25px;
+  height: 25px;
+  border: 2px solid $white;
 }
 
 .swiper-pagination-bullet:nth-child(1) {
-    background-color: $res-medium;
+  background-color: $res-medium;
 }
 
 .swiper-pagination-bullet:nth-child(2) {
-    background-color: $green;
+  background-color: $green;
 }
 
 .swiper-pagination-bullet:nth-child(3) {
-    background-color: $bonecolor;
+  background-color: $bonecolor;
 }
 
 .swiper-pagination-bullet:nth-child(4) {
-    background-color: $variant-black;
+  background-color: $variant-black;
 }
