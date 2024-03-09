@@ -1,6 +1,9 @@
 .swiper {
-  height: 506px;
   width: 100%;
+
+  @include media-breakpoint-up(md) {
+    height: 100%;
+  }
 
   @include media-breakpoint-up(lg) {
     height: 100%;
@@ -9,7 +12,7 @@
   &-image {
     margin-top: 175px;
   }
-
+z
   &-slide {
     align-items: center;
     -webkit-box-sizing: border-box;
@@ -70,6 +73,13 @@
       background-repeat: no-repeat;
       background-size: cover;
     }
+  }
+
+  @include media-breakpoint-up(md) {
+    &-text {
+        padding-bottom: 150px;
+     
+      }
   }
 
   @include media-breakpoint-up(lg) {

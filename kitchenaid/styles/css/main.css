@@ -9934,14 +9934,16 @@ figure {
     height: auto; } }
 
 .swiper {
-  height: 506px;
   width: 100%; }
+  @media (min-width: 768px) {
+    .swiper {
+      height: 100%; } }
   @media (min-width: 992px) {
     .swiper {
       height: 100%; } }
   .swiper-image {
     margin-top: 175px; }
-  .swiper-slide {
+  z .swiper-slide {
     align-items: center;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -9992,6 +9994,9 @@ figure {
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover; } }
+  @media (min-width: 768px) {
+    .swiper-text {
+      padding-bottom: 150px; } }
   @media (min-width: 992px) {
     .swiper-title {
       height: 108px;
