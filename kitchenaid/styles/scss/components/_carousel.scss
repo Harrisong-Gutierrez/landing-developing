@@ -12,8 +12,7 @@
   &-image {
     margin-top: 175px;
   }
-z
-  &-slide {
+  z &-slide {
     align-items: center;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -77,9 +76,8 @@ z
 
   @include media-breakpoint-up(md) {
     &-text {
-        padding-bottom: 150px;
-     
-      }
+      padding-bottom: 150px;
+    }
   }
 
   @include media-breakpoint-up(lg) {
