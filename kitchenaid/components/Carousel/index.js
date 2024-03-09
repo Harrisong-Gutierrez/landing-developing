@@ -17,10 +17,6 @@ const Carousel = ({ title = "" }) => {
         {title}
       </h3>
       <Swiper
-        style={{
-          "--swiper-navigation-color": "#fff",
-          "--swiper-pagination-color": "#fff",
-        }}
         speed={600}
         parallax={true}
         pagination={{
