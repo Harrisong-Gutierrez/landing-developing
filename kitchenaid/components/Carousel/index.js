@@ -1,6 +1,5 @@
 import React, { useRef, useState } from "react";
 import PropTypes from "prop-types";
-
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -28,7 +27,7 @@ const Carousel = ({ title = "" }) => {
       >
         <SwiperSlide>
           <div className="swiper-card">
-            <Card />
+            <Card src="/carousel-image1.png" />
             <p className="swiper-text" data-swiper-parallax="-100">
               Liebesapfelrot
             </p>
@@ -36,7 +35,7 @@ const Carousel = ({ title = "" }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
-            <Card />
+            <Card src="/carousel-image2.png" />
             <p className="swiper-text" data-swiper-parallax="-100">
               Liebesapfelrot
             </p>
@@ -44,7 +43,7 @@ const Carousel = ({ title = "" }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
-            <Card />
+            <Card src="/carousel-image3.png"/>
             <p className="swiper-text" data-swiper-parallax="-100">
               Liebesapfelrot
             </p>
@@ -52,7 +51,7 @@ const Carousel = ({ title = "" }) => {
         </SwiperSlide>
         <SwiperSlide>
           <div className="swiper-card">
-            <Card />
+            <Card src="/carousel-image4.png" />
             <p className="swiper-text" data-swiper-parallax="-100">
               Liebesapfelrot
             </p>
