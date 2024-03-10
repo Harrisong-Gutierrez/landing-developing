@@ -10032,6 +10032,10 @@ figure {
         margin-left: 536px;
         color: #fdfefe; } }
   .swiper .swiper-pagination-horizontal {
+    gap: 15px;
+    display: flex;
+    justify-content: center; }
+  .swiper .swiper-pagination-horizontal {
     margin: 20px 0; }
     @media (min-width: 992px) {
       .swiper .swiper-pagination-horizontal {

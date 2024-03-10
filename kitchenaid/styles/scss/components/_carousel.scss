@@ -110,7 +110,6 @@
   }
 
   .swiper-button-next {
-  
     color: $white;
     margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
@@ -119,13 +118,18 @@
     }
   }
   .swiper-button-prev {
- 
     color: $white;
     margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
       margin-left: 536px;
       color: $white;
     }
+  }
+
+  .swiper-pagination-horizontal {
+    gap: 15px;
+    display: flex;
+    justify-content: center
   }
 
   .swiper-pagination-horizontal {
