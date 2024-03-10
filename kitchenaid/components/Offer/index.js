@@ -8,7 +8,7 @@ const Offer = ({
   showCopyCodeAndButton,
   offerClass,
   titleClass,
-  mainClass,
+  mainClass = "",
   subtitleClass,
   supplementaryClass,
   contentClass,
@@ -59,11 +59,11 @@ const Offer = ({
 Offer.propTypes = {
   title: PropTypes.string.isRequired,
   showCopyCodeAndButton: PropTypes.bool.isRequired,
-  offerClass: PropTypes.bool.isRequired,
-  titleClass: PropTypes.bool.isRequired,
-  mainClass: PropTypes.bool.isRequired,
-  subtitleClass: PropTypes.bool.isRequired,
-  contentClass: PropTypes.bool.isRequired,
+  offerClass: PropTypes.string.isRequired,
+  titleClass: PropTypes.string.isRequired,
+  mainClass: PropTypes.string,
+  subtitleClass: PropTypes.string.isRequired,
+  contentClass: PropTypes.string.isRequired,
 };
 
 export default Offer;

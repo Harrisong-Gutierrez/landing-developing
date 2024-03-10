@@ -10,7 +10,7 @@ export const Categories = ({
   catClass,
   titleClass,
   paragraphClass,
-  textVariant,
+  textVariant = "",
 }) => {
   const renderCategory = () => {
     return categoryArr.map((category) => (
@@ -48,7 +48,7 @@ Categories.propTypes = {
   titleClass: PropTypes.string.isRequired,
   textClass: PropTypes.string.isRequired,
   paragraphClass: PropTypes.string.isRequired,
-  textVariant: PropTypes.string.isRequired,
+  textVariant: PropTypes.string,
 };
 
 export default Categories;
