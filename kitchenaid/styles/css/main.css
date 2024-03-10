@@ -10018,8 +10018,6 @@ figure {
       font-size: 22px;
       line-height: 30px; } }
   .swiper .swiper-button-next {
-    width: 24px;
-    height: 24px;
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {
@@ -10027,8 +10025,6 @@ figure {
         margin-right: 536px;
         color: #fdfefe; } }
   .swiper .swiper-button-prev {
-    width: 24px;
-    height: 24px;
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {

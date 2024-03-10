@@ -110,8 +110,7 @@
   }
 
   .swiper-button-next {
-    width: 24px;
-    height: 24px;
+  
     color: $white;
     margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
@@ -120,8 +119,7 @@
     }
   }
   .swiper-button-prev {
-    width: 24px;
-    height: 24px;
+ 
     color: $white;
     margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
