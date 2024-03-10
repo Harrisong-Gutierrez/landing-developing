@@ -76,6 +76,12 @@
   }
 
   @include media-breakpoint-up(md) {
+    &-title {
+      max-width: 100%;
+      font-size: 30px;
+      top: 90px;
+    }
+
     &-text {
       padding-bottom: 150px;
     }
@@ -129,7 +135,7 @@
   .swiper-pagination-horizontal {
     gap: 15px;
     display: flex;
-    justify-content: center
+    justify-content: center;
   }
 
   .swiper-pagination-horizontal {
