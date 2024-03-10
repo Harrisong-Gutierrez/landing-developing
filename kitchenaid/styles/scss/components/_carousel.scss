@@ -55,6 +55,7 @@
     line-height: auto;
     margin-top: 20px;
     padding-bottom: 106px;
+    color: $white;
   }
 
   &-backgroundimg {
@@ -109,14 +110,20 @@
   }
 
   .swiper-button-next {
+    width: 24px;
+    height: 24px;
     color: $white;
+    margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
       margin-right: 536px;
       color: $white;
     }
   }
   .swiper-button-prev {
+    width: 24px;
+    height: 24px;
     color: $white;
+    margin-right: 13.5px;
     @include media-breakpoint-up(lg) {
       margin-left: 536px;
       color: $white;

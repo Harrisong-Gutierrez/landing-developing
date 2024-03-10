@@ -9979,7 +9979,8 @@ figure {
     font-weight: 300;
     line-height: auto;
     margin-top: 20px;
-    padding-bottom: 106px; }
+    padding-bottom: 106px;
+    color: #fdfefe; }
   .swiper-backgroundimg {
     background-position: center;
     position: relative;
@@ -10017,13 +10018,19 @@ figure {
       font-size: 22px;
       line-height: 30px; } }
   .swiper .swiper-button-next {
-    color: #fdfefe; }
+    width: 24px;
+    height: 24px;
+    color: #fdfefe;
+    margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-next {
         margin-right: 536px;
         color: #fdfefe; } }
   .swiper .swiper-button-prev {
-    color: #fdfefe; }
+    width: 24px;
+    height: 24px;
+    color: #fdfefe;
+    margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-prev {
         margin-left: 536px;
