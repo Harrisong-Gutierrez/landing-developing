@@ -9962,33 +9962,33 @@ figure {
     flex-direction: column;
     text-align: center; }
   .swiper-title {
-    color: #fdfefe;
     font-family: "Nunito Sans", sans-serif;
     font-size: 24px;
-    font-weight: 700;
-    height: 80px;
     line-height: 30px;
-    margin: 0 auto;
+    font-weight: 700;
     max-width: 328px;
+    margin: 0 auto;
+    color: #fdfefe;
     position: absolute;
     text-align: center;
-    top: 48px; }
+    top: 48px;
+    height: 80px; }
   .swiper-text {
-    color: #fdfefe;
     font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: auto;
     margin-top: 20px;
-    padding-bottom: 106px; }
+    padding-bottom: 106px;
+    color: #fdfefe; }
   .swiper-backgroundimg {
-    background-image: url(/carousel-background-mobile.png);
     background-position: center;
+    position: relative;
     background-size: cover;
+    width: 100%;
     display: flex;
     justify-content: center;
-    position: relative;
-    width: 100%; }
+    background-image: url(/carousel-background-mobile.png); }
     @media (min-width: 992px) {
       .swiper-backgroundimg {
         background-image: url(/carousel-background-desktop.png);
@@ -9997,74 +9997,74 @@ figure {
         background-size: cover; } }
   @media (min-width: 768px) {
     .swiper-title {
-      font-size: 30px;
       max-width: 100%;
+      font-size: 30px;
       top: 90px; }
     .swiper-text {
       padding-bottom: 150px; } }
   @media (min-width: 992px) {
     .swiper-title {
-      font-size: 32px;
       height: 108px;
+      font-size: 32px;
       line-height: 38px;
-      max-width: 100%;
+      width: 100%;
       top: 108px;
-      width: 100%; }
+      max-width: 100%; }
     .swiper-image {
-      height: 369px;
       margin-top: 196px;
-      width: 386px; }
+      width: 386px;
+      height: 369px; }
     .swiper-card {
       height: 100%; }
     .swiper-text {
-      font-size: 22px;
-      line-height: 30px;
       padding-bottom: 139px;
-      padding-top: 35px; } }
+      padding-top: 35px;
+      font-size: 22px;
+      line-height: 30px; } }
   .swiper .swiper-button-next:after {
+    content: "";
     background-image: url(/Arrow1.png);
     background-repeat: no-repeat;
-    content: "";
-    height: 24px;
-    width: 24px; }
+    width: 24px;
+    height: 24px; }
   .swiper .swiper-button-prev:after {
+    content: "";
     background-image: url(/Arrow2.png);
     background-repeat: no-repeat;
-    content: "";
-    height: 24px;
-    width: 24px; }
+    width: 24px;
+    height: 24px; }
   .swiper .swiper-button-next {
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-next {
-        color: #fdfefe;
-        margin-right: 536px; } }
+        margin-right: 536px;
+        color: #fdfefe; } }
   .swiper .swiper-button-prev {
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-prev {
-        color: #fdfefe;
-        margin-left: 536px; } }
+        margin-left: 536px;
+        color: #fdfefe; } }
   .swiper .swiper-pagination-horizontal {
-    display: flex;
     gap: 15px;
+    display: flex;
     justify-content: center; }
   .swiper .swiper-pagination-horizontal {
     margin: 20px 0; }
     @media (min-width: 992px) {
       .swiper .swiper-pagination-horizontal {
-        display: flex;
         height: 44px;
-        justify-content: center;
-        margin: 60px 0; } }
+        margin: 60px 0;
+        display: flex;
+        justify-content: center; } }
   .swiper .swiper-backface-hidden .swiper-slide {
     display: flex; }
   .swiper .swiper-pagination-bullets .swiper-pagination-bullet {
-    border: 2px solid #fdfefe;
+    width: 28px;
     height: 26px;
-    width: 28px; }
+    border: 2px solid #fdfefe; }
   .swiper .swiper-pagination-bullet:nth-child(1) {
     background-color: #9B0712; }
   .swiper .swiper-pagination-bullet:nth-child(2) {
@@ -10073,9 +10073,10 @@ figure {
     background-color: #E5DAC1; }
   .swiper .swiper-pagination-bullet:nth-child(4) {
     background-color: #232323; }
-  .swiper span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-    background-image: url(/checkmark.png);
-    height: 24px;
-    width: 24px; }
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-image: url(/checkmark.png);
+  width: 24px;
+  height: 24px; }
 
 /*# sourceMappingURL=main.css.map */

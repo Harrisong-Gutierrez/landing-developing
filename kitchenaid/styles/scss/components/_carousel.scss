@@ -38,37 +38,37 @@
     }
 
     &-title {
-        color: $white;
         font-family: $font-nunito-sans-sans-serif;
         font-size: 24px;
-        font-weight: 700;
-        height: 80px;
         line-height: 30px;
-        margin: 0 auto;
+        font-weight: 700;
         max-width: 328px;
+        margin: 0 auto;
+        color: $white;
         position: absolute;
         text-align: center;
         top: 48px;
+        height: 80px;
     }
 
     &-text {
-        color: $white;
         font-family: $font-nunito-sans-sans-serif;
         font-size: 14px;
         font-weight: 300;
         line-height: auto;
         margin-top: 20px;
         padding-bottom: 106px;
+        color: $white;
     }
 
     &-backgroundimg {
-        background-image: url(/carousel-background-mobile.png);
         background-position: center;
+        position: relative;
         background-size: cover;
+        width: 100%;
         display: flex;
         justify-content: center;
-        position: relative;
-        width: 100%;
+        background-image: url(/carousel-background-mobile.png);
 
         @include media-breakpoint-up(lg) {
             background-image: url(/carousel-background-desktop.png);
@@ -80,8 +80,8 @@
 
     @include media-breakpoint-up(md) {
         &-title {
-            font-size: 30px;
             max-width: 100%;
+            font-size: 30px;
             top: 90px;
         }
 
@@ -93,18 +93,18 @@
 
     @include media-breakpoint-up(lg) {
         &-title {
-            font-size: 32px;
             height: 108px;
+            font-size: 32px;
             line-height: 38px;
-            max-width: 100%;
-            top: 108px;
             width: 100%;
+            top: 108px;
+            max-width: 100%;
         }
 
         &-image {
-            height: 369px;
             margin-top: 196px;
             width: 386px;
+            height: 369px;
         }
 
         &-card {
@@ -112,28 +112,28 @@
         }
 
         &-text {
-            font-size: 22px;
-            line-height: 30px;
             padding-bottom: 139px;
             padding-top: 35px;
+            font-size: 22px;
+            line-height: 30px;
         }
     }
 
 
     .swiper-button-next:after {
+        content: "";
         background-image: $arrow1;
         background-repeat: no-repeat;
-        content: "";
-        height: 24px;
         width: 24px;
+        height: 24px;
     }
 
     .swiper-button-prev:after {
+        content: "";
         background-image: $arrow2;
         background-repeat: no-repeat;
-        content: "";
-        height: 24px;
         width: 24px;
+        height: 24px;
     }
 
     .swiper-button-next {
@@ -141,8 +141,8 @@
         margin-right: 13.5px;
 
         @include media-breakpoint-up(lg) {
-            color: $white;
             margin-right: 536px;
+            color: $white;
         }
     }
 
@@ -151,14 +151,14 @@
         margin-right: 13.5px;
 
         @include media-breakpoint-up(lg) {
-            color: $white;
             margin-left: 536px;
+            color: $white;
         }
     }
 
     .swiper-pagination-horizontal {
-        display: flex;
         gap: 15px;
+        display: flex;
         justify-content: center;
     }
 
@@ -166,10 +166,10 @@
         margin: 20px 0;
 
         @include media-breakpoint-up(lg) {
-            display: flex;
             height: 44px;
-            justify-content: center;
             margin: 60px 0;
+            display: flex;
+            justify-content: center;
         }
     }
 
@@ -178,9 +178,9 @@
     }
 
     .swiper-pagination-bullets .swiper-pagination-bullet {
-        border: 2px solid $white;
-        height: 26px;
         width: 28px;
+        height: 26px;
+        border: 2px solid $white;
     }
 
     .swiper-pagination-bullet:nth-child(1) {
@@ -198,10 +198,10 @@
     .swiper-pagination-bullet:nth-child(4) {
         background-color: $variant-black;
     }
+}
 
-    span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-        background-image: $checkmark;
-        height: 24px;
-        width: 24px;
-    }
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-image: $checkmark;
+    width: 24px;
+    height: 24px;
 }
