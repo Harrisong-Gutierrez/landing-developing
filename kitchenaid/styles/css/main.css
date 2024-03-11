@@ -9962,33 +9962,33 @@ figure {
     flex-direction: column;
     text-align: center; }
   .swiper-title {
+    color: #fdfefe;
     font-family: "Nunito Sans", sans-serif;
     font-size: 24px;
-    line-height: 30px;
     font-weight: 700;
-    max-width: 328px;
+    height: 80px;
+    line-height: 30px;
     margin: 0 auto;
-    color: #fdfefe;
+    max-width: 328px;
     position: absolute;
     text-align: center;
-    top: 48px;
-    height: 80px; }
+    top: 48px; }
   .swiper-text {
+    color: #fdfefe;
     font-family: "Nunito Sans", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: auto;
     margin-top: 20px;
-    padding-bottom: 106px;
-    color: #fdfefe; }
+    padding-bottom: 106px; }
   .swiper-backgroundimg {
+    background-image: url(/carousel-background-mobile.png);
     background-position: center;
-    position: relative;
     background-size: cover;
-    width: 100%;
     display: flex;
     justify-content: center;
-    background-image: url(/carousel-background-mobile.png); }
+    position: relative;
+    width: 100%; }
     @media (min-width: 992px) {
       .swiper-backgroundimg {
         background-image: url(/carousel-background-desktop.png);
@@ -9997,74 +9997,74 @@ figure {
         background-size: cover; } }
   @media (min-width: 768px) {
     .swiper-title {
-      max-width: 100%;
       font-size: 30px;
+      max-width: 100%;
       top: 90px; }
     .swiper-text {
       padding-bottom: 150px; } }
   @media (min-width: 992px) {
     .swiper-title {
-      height: 108px;
       font-size: 32px;
+      height: 108px;
       line-height: 38px;
-      width: 100%;
+      max-width: 100%;
       top: 108px;
-      max-width: 100%; }
+      width: 100%; }
     .swiper-image {
+      height: 369px;
       margin-top: 196px;
-      width: 386px;
-      height: 369px; }
+      width: 386px; }
     .swiper-card {
       height: 100%; }
     .swiper-text {
-      padding-bottom: 139px;
-      padding-top: 35px;
       font-size: 22px;
-      line-height: 30px; } }
+      line-height: 30px;
+      padding-bottom: 139px;
+      padding-top: 35px; } }
   .swiper .swiper-button-next:after {
-    content: "";
     background-image: url(/Arrow1.png);
     background-repeat: no-repeat;
-    width: 24px;
-    height: 24px; }
-  .swiper .swiper-button-prev:after {
     content: "";
+    height: 24px;
+    width: 24px; }
+  .swiper .swiper-button-prev:after {
     background-image: url(/Arrow2.png);
     background-repeat: no-repeat;
-    width: 24px;
-    height: 24px; }
+    content: "";
+    height: 24px;
+    width: 24px; }
   .swiper .swiper-button-next {
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-next {
-        margin-right: 536px;
-        color: #fdfefe; } }
+        color: #fdfefe;
+        margin-right: 536px; } }
   .swiper .swiper-button-prev {
     color: #fdfefe;
     margin-right: 13.5px; }
     @media (min-width: 992px) {
       .swiper .swiper-button-prev {
-        margin-left: 536px;
-        color: #fdfefe; } }
+        color: #fdfefe;
+        margin-left: 536px; } }
   .swiper .swiper-pagination-horizontal {
-    gap: 15px;
     display: flex;
+    gap: 15px;
     justify-content: center; }
   .swiper .swiper-pagination-horizontal {
     margin: 20px 0; }
     @media (min-width: 992px) {
       .swiper .swiper-pagination-horizontal {
-        height: 44px;
-        margin: 60px 0;
         display: flex;
-        justify-content: center; } }
+        height: 44px;
+        justify-content: center;
+        margin: 60px 0; } }
   .swiper .swiper-backface-hidden .swiper-slide {
     display: flex; }
   .swiper .swiper-pagination-bullets .swiper-pagination-bullet {
-    width: 25px;
-    height: 25px;
-    border: 2px solid #fdfefe; }
+    border: 2px solid #fdfefe;
+    height: 26px;
+    width: 28px; }
   .swiper .swiper-pagination-bullet:nth-child(1) {
     background-color: #9B0712; }
   .swiper .swiper-pagination-bullet:nth-child(2) {
@@ -10073,5 +10073,9 @@ figure {
     background-color: #E5DAC1; }
   .swiper .swiper-pagination-bullet:nth-child(4) {
     background-color: #232323; }
+  .swiper span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-image: url(/checkmark.png);
+    height: 24px;
+    width: 24px; }
 
 /*# sourceMappingURL=main.css.map */
