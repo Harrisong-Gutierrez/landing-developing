@@ -10021,6 +10021,18 @@ figure {
       padding-top: 35px;
       font-size: 22px;
       line-height: 30px; } }
+  .swiper .swiper-button-next:after {
+    content: "";
+    background-image: url(/Arrow1.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px; }
+  .swiper .swiper-button-prev:after {
+    content: "";
+    background-image: url(/Arrow2.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px; }
   .swiper .swiper-button-next {
     color: #fdfefe;
     margin-right: 13.5px; }
