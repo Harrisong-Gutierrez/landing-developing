@@ -1,4 +1,16 @@
 .Header {
     height: 100vh;
     width: 100%;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+
+    &-icon {
+        width: 124px;
+        height: 72.28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 22.6px;
+    }
 }

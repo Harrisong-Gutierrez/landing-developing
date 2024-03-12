@@ -12,7 +12,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <Header />
+        <Header
+          logoSrc="/header-logo.png"
+          logoAlt="header-logo"
+          logoWidth={78}
+          logoHeight={52}
+        />
       </main>
     </>
   );

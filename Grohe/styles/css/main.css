@@ -9338,6 +9338,16 @@ figure {
 
 .Header {
   height: 100vh;
-  width: 100%; }
+  width: 100%;
+  background-color: #0F2B4B;
+  display: flex;
+  justify-content: center; }
+  .Header-icon {
+    width: 124px;
+    height: 72.28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 22.6px; }
 
 /*# sourceMappingURL=main.css.map */
