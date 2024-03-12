@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Offer from "@/components/Offer";
 
 import Head from "next/head";
 
@@ -18,6 +19,7 @@ export default function Home() {
           logoWidth={78}
           logoHeight={52}
         />
+        <Offer />
       </main>
     </>
   );
