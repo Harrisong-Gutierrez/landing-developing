@@ -21,7 +21,6 @@ const Header = ({ imgCover = "", title, paragraph }) => {
             </figure>
             <h1 className="Header-title">{title}</h1>
             <p className="Header-paragraph">{paragraph}</p>
-            <Arrow img="/Arrows.png" height={40} width={33} />
           </div>
         </div>
       </div>
