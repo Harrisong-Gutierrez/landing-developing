@@ -16,13 +16,14 @@ const Header = ({ logoSrc, logoAlt, logoWidth, logoHeight }) => {
       <div className="Header-title">
         <h1 className="Header-title-text">SISTEMI DI FILTRAZIONE GROHE BLUE</h1>
       </div>
-      <div className="Header-button">
+      <>
         <Button
+          styleLink="Header-button"
           className="Header-button-text"
           href="/"
           textContent="Scopri l'offerta"
         />
-      </div>
+      </>
     </header>
   );
 };
