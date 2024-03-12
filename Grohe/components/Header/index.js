@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
+import Button from "../Button";
 
 const Header = ({ logoSrc, logoAlt, logoWidth, logoHeight }) => {
   return (
@@ -12,6 +13,16 @@ const Header = ({ logoSrc, logoAlt, logoWidth, logoHeight }) => {
           height={logoHeight}
         />
       </figure>
+      <div className="Header-title">
+        <h1 className="Header-title-text">SISTEMI DI FILTRAZIONE GROHE BLUE</h1>
+      </div>
+      <div className="Header-button">
+        <Button
+          className="Header-button-text"
+          href="/"
+          textContent="Scopri l'offerta"
+        />
+      </div>
     </header>
   );
 };
