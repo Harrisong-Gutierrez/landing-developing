@@ -1,0 +1,28 @@
+.Products {
+    background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-title {
+        color: $blue;
+        display: flex;
+        flex-direction: column;
+        font-family: $font-Inter-sans-serif;
+        font-weight: 600;
+        height: 97px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 329px;
+
+        &-firstVariant {
+            font-size: 24px;
+        }
+
+        &-secondVariant {
+            font-size: 20px;
+        }
+    }
+
+    &-subtitle {}
+}

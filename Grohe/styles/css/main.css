@@ -9511,4 +9511,22 @@ figure {
     .Offer-secondBox-firstSpan {
       font-weight: 400; }
 
+.Products {
+  background-image: url(/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .Products-title {
+    color: #0F2B4B;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    height: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 329px; }
+    .Products-title-firstVariant {
+      font-size: 24px; }
+    .Products-title-secondVariant {
+      font-size: 20px; }
+
 /*# sourceMappingURL=main.css.map */

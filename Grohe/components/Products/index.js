@@ -4,8 +4,10 @@ const Products = () => {
   return (
     <section className="Products">
       <h2 className="Products-title">
-        Passa a GROHE Blue: acqua fresca e deliziosa direttamente dal tuo
-        rubinetto
+        <span className="Products-title-firstVariant">Passa a GROHE Blue:</span>
+        <span className="Products-title-secondVariant">
+          acqua fresca e deliziosa direttamente dal tuo rubinetto
+        </span>
       </h2>
       <p className="Products-subtitle">
         Riduce il calcare, il residuo fisso, e migliora eccezionalmente il gusto
