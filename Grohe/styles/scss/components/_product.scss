@@ -1,0 +1,47 @@
+.Product {
+    &-content {
+        height: 100%;
+        width: 328px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 24px;
+        gap: 20px;
+    }
+
+    &-title {
+        text-align: center;
+
+        &-firstVariant {
+            width: 324px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+            color: $blue;
+            font-family: $font-Inter-sans-serif;
+        }
+
+        &-firstVariantOne {
+            height: auto;
+            font-size: 18px;
+            line-height: 24px;
+            font-weight: 600;
+        }
+
+        &-secondVariant {
+            height: auto;
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 700;
+        }
+    }
+
+    &-subtitle {
+        text-align: center;
+    }
+
+    &-button {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
