@@ -1,5 +1,7 @@
 .Offer {
     background-image: $background-image;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     padding-bottom: 45px;
@@ -114,6 +116,8 @@
         }
 
         &-plus {
+            font-size: 16px;
+            font-family: $font-Inter-sans-serif;
             width: 19px;
             height: 16px;
             display: flex;
@@ -122,6 +126,7 @@
             align-items: center;
             margin-left: 24px;
             margin-right: 24px;
+            font-weight: 400;
         }
 
         &-textTwo {

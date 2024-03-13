@@ -9394,6 +9394,8 @@ figure {
 
 .Offer {
   background-image: url(/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   padding-bottom: 45px;
@@ -9484,6 +9486,8 @@ figure {
       font-family: "Inter", sans-serif;
       font-weight: 700; }
     .Offer-secondBox-plus {
+      font-size: 16px;
+      font-family: "Inter", sans-serif;
       width: 19px;
       height: 16px;
       display: flex;
@@ -9491,7 +9495,8 @@ figure {
       justify-content: center;
       align-items: center;
       margin-left: 24px;
-      margin-right: 24px; }
+      margin-right: 24px;
+      font-weight: 400; }
     .Offer-secondBox-textTwo {
       width: 116px;
       height: 40px;
