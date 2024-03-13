@@ -8,14 +8,14 @@ const Offer = () => {
           <LuClock9 />
         </figure>
         <p className="Offer-title">
-          <span className="Offer-title-firstVariant">GROHE</span>
-          <span className="Offer-title-secondVariant"> Blue su </span>
+          <span className="Offer-title-firstVariant">GROHE </span>
+          <span className="Offer-title-secondVariant">Blue su</span>
           <span className="Offer-title-thirdVariant">VEEPEE</span>
         </p>
 
-        <div className="Offer-firstBox">
-          <p className="Offer-firstBox-textOne">-50%</p>
-          <p className="Offer-firstBox-textTwo">sui sistemi di filtrazione</p>
+        <div className="Offer-firstbox">
+          <p className="Offer-firstbox-textOne">-50%</p>
+          <p className="Offer-firstbox-textTwo">sui sistemi di filtrazione</p>
         </div>
 
         <div className="Offer-secondBox">

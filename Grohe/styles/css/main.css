@@ -9395,15 +9395,75 @@ figure {
 .Offer {
   background-image: url(/background-image.png);
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  padding-bottom: 45px;
+  padding-top: 15px; }
+  .Offer-icon {
+    align-items: center;
+    display: flex;
+    height: 78px;
+    justify-content: center;
+    width: 78px; }
+  .Offer-title {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 4px;
+    height: 50.12px;
+    justify-content: center;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 290.54px; }
+    .Offer-title-firstVariant {
+      color: #0F2B4B; }
+    .Offer-title-secondVariant {
+      color: #0F2B4B; }
+    .Offer-title-thirdVariant {
+      color: #EC008C; }
   .Offer-content {
-    width: 328px;
-    height: 100%;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center; }
-  .Offer-first-box {
-    display: flex; }
+    height: 100%;
+    width: 328px; }
+  .Offer-firstbox {
+    align-items: center;
+    background-color: #fdfefe;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px; }
+    .Offer-firstbox-textOne {
+      align-items: center;
+      color: #000000;
+      display: flex;
+      font-family: "Inter", sans-serif;
+      font-size: 32px;
+      font-weight: 700;
+      height: 40px;
+      justify-content: center;
+      line-height: 20px;
+      margin-bottom: 25px;
+      margin-left: 20.19px;
+      margin-top: 25px;
+      width: 86px; }
+    .Offer-firstbox-textTwo {
+      align-items: center;
+      color: #000000;
+      display: flex;
+      font-family: "Inter", sans-serif;
+      font-weight: 400;
+      height: 40px;
+      height: 40px;
+      justify-content: center;
+      line-height: 20px;
+      margin-bottom: 25px;
+      margin-right: 19.28px;
+      margin-top: 25px;
+      text-align: center;
+      width: 123px; }
   .Offer-secondBox {
     display: flex; }
 
