@@ -9521,7 +9521,8 @@ figure {
   .Products-cards {
     display: flex;
     gap: 30px;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-bottom: 50px; }
   .Products-title {
     color: #0F2B4B;
     display: flex;

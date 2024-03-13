@@ -25,13 +25,13 @@ const Products = () => {
           subtitleClass="Product-subtitle"
           subtitle="Acqua filtrata naturale a temperatura ambiente dal gusto delizioso."
         />
-        {/* <Product
+        <Product
           btnText="Scopri GROHE Blue Home"
           logoImg="/VEEPEE.png"
           imageSrc="/product2-mobile.png"
           title="GROHE Blue Home Rubinetto con filtro e frigo gasatore"
           subtitle="Acqua naturale fresca, leggermente frizzante e frizzante fredda, tutto da un unico rubinetto."
-        /> */}
+        />
       </div>
     </section>
   );
