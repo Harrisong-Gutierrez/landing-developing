@@ -50,7 +50,7 @@
     &-firstbox {
         align-items: center;
         background-color: $white;
-        border-radius: 12px;
+        border-radius: 10px;
         display: flex;
         justify-content: center;
         margin-bottom: 16px;
@@ -90,6 +90,38 @@
     }
 
     &-secondBox {
+        background-color: $white;
+        border-radius: 10px;
         display: flex;
+        align-items: center;
+
+        &-textOne {
+            width: 90px;
+            height: 40px;
+            text-align: center;
+            margin-left: 29px;
+            margin: 26px;
+            margin-bottom: 26px;
+        }
+
+        &-plus {
+            width: 19px;
+            height: 16px;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-left: 24px;
+            margin-right: 24px;
+        }
+
+        &-textTwo {
+            width: 116px;
+            height: 40px;
+            text-align: center;
+            margin-top: 26px;
+            margin-bottom: 26px;
+            margin-right: 29px;
+        }
     }
 }

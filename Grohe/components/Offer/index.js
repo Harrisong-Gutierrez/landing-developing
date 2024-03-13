@@ -22,7 +22,7 @@ const Offer = () => {
           <p className="Offer-secondBox-textOne">Spedizione gratuita</p>
           <p className="Offer-secondBox-plus">+</p>
           <p className="Offer-secondBox-textTwo">
-            Bonus
+            Bonus fiscale
             <span className="Offer-secondBox-firstSpan"> fino a </span>
             <span className="Offer-secondBox-secondSpan">500€*</span>
           </p>
