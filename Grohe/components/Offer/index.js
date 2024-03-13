@@ -5,7 +5,7 @@ const Offer = () => {
     <section className="Offer">
       <div className="Offer-content">
         <figure className="Offer-icon">
-          <LuClock9 />
+          <LuClock9 className="Offer-icon-customized" />
         </figure>
         <p className="Offer-title">
           <span className="Offer-title-firstVariant">GROHE </span>
