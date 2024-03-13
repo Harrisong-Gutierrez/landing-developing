@@ -29,10 +29,19 @@
         }
 
         &-secondVariant {
+            width: 324px;
+            height: 32px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        &-secondVariantTwo {
             height: auto;
-            font-size: 16px;
-            line-height: 20px;
-            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            color: $blue;
+            font-family: $font-Inter-sans-serif;
+            font-weight: 600;
         }
     }
 

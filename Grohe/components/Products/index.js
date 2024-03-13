@@ -29,7 +29,10 @@ const Products = () => {
           btnText="Scopri GROHE Blue Home"
           logoImg="/VEEPEE.png"
           imageSrc="/product2-mobile.png"
-          title="GROHE Blue Home Rubinetto con filtro e frigo gasatore"
+          titleClass="Product-title Product-title-secondVariant Product-title-secondVariantTwo"
+          title="GROHE Blue Home"
+          titleClassVariant=""
+          titleVariant="Rubinetto con filtro e frigo gasatore"
           subtitle="Acqua naturale fresca, leggermente frizzante e frizzante fredda, tutto da un unico rubinetto."
         />
       </div>
