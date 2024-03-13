@@ -13,7 +13,7 @@ const Products = () => {
         Riduce il calcare, il residuo fisso, e migliora eccezionalmente il gusto
         dell'acqua.
       </p>
-      {/* <Product
+      <Product
         btnText="Scopri GROHE Blue Pure"
         logoImg="/VEEPEE.png"
         imageSrc="/product1-mobile.png"
@@ -26,7 +26,7 @@ const Products = () => {
         imageSrc="/product2-mobile.png"
         title="GROHE Blue Home Rubinetto con filtro e frigo gasatore"
         subtitle="Acqua naturale fresca, leggermente frizzante e frizzante fredda, tutto da un unico rubinetto."
-      /> */}
+      />
     </section>
   );
 };

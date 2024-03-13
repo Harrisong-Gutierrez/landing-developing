@@ -24,5 +24,18 @@
         }
     }
 
-    &-subtitle {}
+    &-subtitle {
+        font-family: $font-Inter-sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        height: 60px;
+        line-height: 20px;
+        width: 305px;
+        text-align: center;
+        color: $blue-cosy;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8px;
+        margin-bottom: 14px;
+    }
 }
