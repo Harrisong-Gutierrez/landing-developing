@@ -8,6 +8,7 @@ const Benefits = () => {
     return benefits.map((benefit) => (
       <Benefit
         key={uuidv4()}
+        logoClass={benefit.logoClass}
         logoSrc={benefit.logoSrc}
         logoAlt={benefit.logoAlt}
         logoWidth={benefit.logoWidth}
@@ -33,7 +34,7 @@ const Benefits = () => {
         <h2 className="Benefits-title">Scopri i vantaggi di GROHE Blue:</h2>
         <p className="Benefits-text">perfetto per qualsiasi cucina</p>
       </div>
-      <div>{renderBenefitsList()}</div>
+      <div className="Benefits-list">{renderBenefitsList()}</div>
     </section>
   );
 };

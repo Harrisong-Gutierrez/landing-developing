@@ -1,10 +1,18 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
 
-const Benefit = ({ logoSrc, logoAlt, logoWidth, logoHeight, title, text }) => {
+const Benefit = ({
+  logoClass,
+  logoSrc,
+  logoAlt,
+  logoWidth,
+  logoHeight,
+  title,
+  text,
+}) => {
   return (
-    <div>
-      <figure>
+    <div className="Benefit">
+      <figure className={logoClass}>
         <Image
           src={logoSrc}
           alt={logoAlt}
@@ -13,15 +21,16 @@ const Benefit = ({ logoSrc, logoAlt, logoWidth, logoHeight, title, text }) => {
         />
       </figure>
 
-      <div>
-        <h3>{title}</h3>
-        <p>{text}</p>
+      <div className="Benefit-textBox">
+        <h3 className="Benefit-title">{title}</h3>
+        <p className="Benefit-text">{text}</p>
       </div>
     </div>
   );
 };
 
 Benefit.propTypes = {
+  logoClass: PropTypes.string.isRequired,
   logoSrc: PropTypes.string.isRequired,
   logoAlt: PropTypes.string.isRequired,
   logoWidth: PropTypes.number.isRequired,

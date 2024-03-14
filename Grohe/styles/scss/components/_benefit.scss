@@ -1,0 +1,32 @@
+.Benefit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-title {
+        font-size: 16px;
+        font-family: $font-Inter-sans-serif;
+        font-weight: 700;
+        line-height: 20px;
+        color: $white;
+        width: 208px;
+        height: 20px;
+    }
+
+    &-text {
+        font-size: 16px;
+        line-height: 20px;
+        font-family: $font-Inter-sans-serif;
+        font-weight: 400;
+        color: $white;
+        width: 208px;
+    }
+
+    &-firstClassLogo {
+        margin-right: 35px;
+    }
+
+    &-secondClassLogo {
+        margin-right: 27px;
+    }
+}
