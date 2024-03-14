@@ -11,13 +11,14 @@
 
   &-title {
     text-align: center;
+    color: $blue;
 
     &-firstVariant {
       width: 324px;
       height: 32px;
       display: flex;
       flex-direction: column;
-      color: $blue;
+
       font-family: $font-Inter-sans-serif;
     }
 
@@ -32,7 +33,7 @@
       height: auto;
       font-size: 16px;
       line-height: 24px;
-      color: $blue;
+
       font-weight: 600;
     }
 
