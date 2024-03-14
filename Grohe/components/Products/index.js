@@ -1,4 +1,3 @@
-import Benefits from "../Benefits";
 import Product from "./components/product";
 
 const Products = () => {
@@ -37,7 +36,6 @@ const Products = () => {
           subtitleClass="Product-subtitle"
           subtitle="Acqua naturale fresca, leggermente frizzante e frizzante fredda, tutto da un unico rubinetto."
         />
-        <Benefits />
       </div>
     </section>
   );

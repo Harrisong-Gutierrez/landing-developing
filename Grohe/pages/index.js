@@ -1,3 +1,4 @@
+import Benefits from "@/components/Benefits";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
 import Products from "@/components/Products";
@@ -22,6 +23,7 @@ export default function Home() {
         />
         <Offer />
         <Products />
+        <Benefits />
       </main>
     </>
   );

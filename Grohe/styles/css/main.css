@@ -9609,4 +9609,34 @@ figure {
   background-color: #fdfefe;
   border: solid #EC008C 1px; }
 
+.Benefits {
+  background-color: #2d7fbe;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .Benefits-cover {
+    width: 100%;
+    background-color: #caeafd; }
+    .Benefits-cover-img {
+      width: 100%; }
+  .Benefits-textContent {
+    width: 314px;
+    height: 48px;
+    margin-top: 47px;
+    margin-bottom: 47px; }
+  .Benefits-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    color: #fdfefe;
+    text-align: center; }
+  .Benefits-text {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: #fdfefe;
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */

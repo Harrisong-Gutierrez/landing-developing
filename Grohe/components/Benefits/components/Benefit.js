@@ -26,8 +26,8 @@ Benefit.propTypes = {
   logoAlt: PropTypes.string.isRequired,
   logoWidth: PropTypes.number.isRequired,
   logoHeight: PropTypes.number.isRequired,
-  title: PropTypes.number.isRequired,
-  text: PropTypes.number.isRequired,
+  title: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
 };
 
 export default Benefit;
