@@ -9610,62 +9610,74 @@ figure {
   border: solid #EC008C 1px; }
 
 .Benefits {
+  align-items: center;
   background-color: #2d7fbe;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
   .Benefits-cover {
-    width: 100%;
-    background-color: #caeafd; }
+    background-color: #caeafd;
+    width: 100%; }
     .Benefits-cover-img {
       width: 100%; }
   .Benefits-textContent {
-    width: 314px;
     height: 48px;
+    margin-bottom: 47px;
     margin-top: 47px;
-    margin-bottom: 47px; }
+    width: 314px; }
   .Benefits-title {
-    font-size: 20px;
-    line-height: 24px;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
     color: #fdfefe;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
     text-align: center; }
   .Benefits-text {
-    font-size: 20px;
-    line-height: 24px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     color: #fdfefe;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
     text-align: center; }
   .Benefits-list {
-    gap: 38px;
     display: flex;
     flex-direction: column;
+    gap: 38px;
     margin-bottom: 47px; }
 
 .Benefit {
+  align-items: center;
   display: flex;
-  justify-content: space-between;
-  align-items: center; }
+  justify-content: space-between; }
   .Benefit-title {
-    font-size: 16px;
+    color: #fdfefe;
     font-family: "Inter", sans-serif;
+    font-size: 16px;
     font-weight: 700;
+    height: 20px;
     line-height: 20px;
-    color: #fdfefe;
-    width: 208px;
-    height: 20px; }
+    width: 208px; }
   .Benefit-text {
-    font-size: 16px;
-    line-height: 20px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
     color: #fdfefe;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
     width: 208px; }
   .Benefit-firstClassLogo {
     margin-right: 35px; }
   .Benefit-secondClassLogo {
     margin-right: 27px; }
+
+.Preferences-imgText {
+  position: relative; }
+
+.Preferences-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fdfefe;
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,12 +1,12 @@
 .Benefits {
+    align-items: center;
     background-color: $blue-variant;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     &-cover {
-        width: 100%;
         background-color: $skyBlue;
+        width: 100%;
 
         &-img {
             width: 100%;
@@ -14,34 +14,34 @@
     }
 
     &-textContent {
-        width: 314px;
         height: 48px;
-        margin-top: 47px;
         margin-bottom: 47px;
+        margin-top: 47px;
+        width: 314px;
     }
 
     &-title {
-        font-size: 20px;
-        line-height: 24px;
-        font-family: $font-Inter-sans-serif;
-        font-weight: 600;
         color: $white;
+        font-family: $font-Inter-sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 24px;
         text-align: center;
     }
 
     &-text {
-        font-size: 20px;
-        line-height: 24px;
-        font-family: $font-Inter-sans-serif;
-        font-weight: 400;
         color: $white;
+        font-family: $font-Inter-sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 24px;
         text-align: center;
     }
 
     &-list {
-        gap: 38px;
         display: flex;
         flex-direction: column;
+        gap: 38px;
         margin-bottom: 47px;
     }
 }

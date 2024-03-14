@@ -1,6 +1,7 @@
 import Benefits from "@/components/Benefits";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
+import Preferences from "@/components/Preferences";
 import Products from "@/components/Products";
 
 import Head from "next/head";
@@ -24,6 +25,7 @@ export default function Home() {
         <Offer />
         <Products />
         <Benefits />
+        <Preferences />
       </main>
     </>
   );
