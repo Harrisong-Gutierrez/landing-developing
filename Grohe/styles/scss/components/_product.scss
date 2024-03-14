@@ -1,72 +1,71 @@
 .Product {
-    &-content {
-        height: 100%;
-        width: 328px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 24px;
-        gap: 20px;
+  &-content {
+    height: 100%;
+    width: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 24px;
+    gap: 20px;
+  }
+
+  &-title {
+    text-align: center;
+
+    &-firstVariant {
+      width: 324px;
+      height: 32px;
+      display: flex;
+      flex-direction: column;
+      color: $blue;
+      font-family: $font-Inter-sans-serif;
     }
 
-    &-title {
-        text-align: center;
-
-        &-firstVariant {
-            width: 324px;
-            height: 32px;
-            display: flex;
-            flex-direction: column;
-            color: $blue;
-            font-family: $font-Inter-sans-serif;
-        }
-
-        &-firstVariantOne {
-            height: auto;
-            font-size: 18px;
-            line-height: 24px;
-            font-weight: 600;
-        }
-
-        &-secondVariant {
-            width: 324px;
-            height: 32px;
-            display: flex;
-            flex-direction: column;
-        }
-
-        &-secondVariantTwo {
-            height: auto;
-            font-size: 18px;
-            line-height: 24px;
-            color: $blue;
-            font-family: $font-Inter-sans-serif;
-            font-weight: 600;
-        }
+    &-firstVariantOne {
+      height: auto;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 600;
     }
 
-    &-subtitle {
-        text-align: center;
-        height: 36px;
-        font-size: 14px;
-        line-height: 18px;
-        font-family: $font-Inter-sans-serif;
-        font-weight: 400;
-        color: $blue;
+    &-secondVariantTwo {
+      height: auto;
+      font-size: 16px;
+      line-height: 24px;
+      color: $blue;
+      font-weight: 600;
     }
 
-    &-button {
-        display: flex;
-        flex-direction: row-reverse;
-        width: 285px;
-        height: 38px;
-        border-radius: 4px;
-        justify-content: center;
-        align-items: center;
-        color: $pink-hard;
-        font-family: $font-hk-grotesk-bold;
-        text-decoration: none;
-        background-color: $white;
-        border: solid $pink-hard 1px;
+    &-secondVariant {
+      width: 324px;
+      height: 32px;
+      display: flex;
+      flex-direction: column;
     }
+  }
+
+  &-subtitle {
+    text-align: center;
+    height: 36px;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: $font-Inter-sans-serif;
+    font-weight: 400;
+    color: $blue;
+  }
+
+  &-button {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 285px;
+    height: 38px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    color: $pink-hard;
+    font-family: $font-hk-grotesk-bold;
+    text-decoration: none;
+    background-color: $white;
+    border: solid $pink-hard 1px;
+  }
 }

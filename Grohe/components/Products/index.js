@@ -15,7 +15,7 @@ const Products = () => {
       </p>
       <div className="Products-cards">
         <Product
-          titleClassVariant="Product-title-secondVariant"
+          titleClassVariant="Product-title-secondVariantTwo"
           titleClass="Product-title Product-title-firstVariant Product-title-firstVariantOne"
           btnText="Scopri GROHE Blue Pure"
           logoImg="/VEEPEE.png"
@@ -26,13 +26,14 @@ const Products = () => {
           subtitle="Acqua filtrata naturale a temperatura ambiente dal gusto delizioso."
         />
         <Product
+          titleClassVariant="Product-title-secondVariantTwo"
+          titleClass="Product-title Product-title-secondVariant  Product-title-firstVariantOne"
           btnText="Scopri GROHE Blue Home"
           logoImg="/VEEPEE.png"
           imageSrc="/product2-mobile.png"
-          titleClass="Product-title Product-title-secondVariant Product-title-secondVariantTwo"
           title="GROHE Blue Home"
-          titleClassVariant=""
           titleVariant="Rubinetto con filtro e frigo gasatore"
+          subtitleClass="Product-subtitle"
           subtitle="Acqua naturale fresca, leggermente frizzante e frizzante fredda, tutto da un unico rubinetto."
         />
       </div>

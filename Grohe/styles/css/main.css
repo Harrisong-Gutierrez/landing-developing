@@ -9575,18 +9575,17 @@ figure {
     font-size: 18px;
     line-height: 24px;
     font-weight: 600; }
+  .Product-title-secondVariantTwo {
+    height: auto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0F2B4B;
+    font-weight: 600; }
   .Product-title-secondVariant {
     width: 324px;
     height: 32px;
     display: flex;
     flex-direction: column; }
-  .Product-title-secondVariantTwo {
-    height: auto;
-    font-size: 18px;
-    line-height: 24px;
-    color: #0F2B4B;
-    font-family: "Inter", sans-serif;
-    font-weight: 600; }
 
 .Product-subtitle {
   text-align: center;
