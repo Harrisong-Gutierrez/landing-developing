@@ -1,4 +1,5 @@
 import Benefits from "@/components/Benefits";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import Offer from "@/components/Offer";
 import Preferences from "@/components/Preferences";
@@ -30,6 +31,13 @@ export default function Home() {
         <Benefits />
         <Preferences />
         <Selections />
+        <Footer
+          text="© GROHE 2023. Tutti i diritti riservati."
+          src="/footer-logo.png"
+          alt="hooter-image"
+          height={52}
+          width={227}
+        />
       </main>
     </>
   );

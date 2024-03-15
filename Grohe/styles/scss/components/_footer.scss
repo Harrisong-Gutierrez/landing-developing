@@ -1,0 +1,22 @@
+.Footer {
+    align-items: center;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+    &-image {
+        margin-bottom: 20.5px;
+        margin-top: 43.5px;
+    }
+
+    &-text {
+        color: $white;
+        font-family: $font-hk-grotesk-bold;
+        font-size: 8px;
+        text-align: center;
+        width: 246px;
+        margin-bottom: 11px;
+    }
+}
