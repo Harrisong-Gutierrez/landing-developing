@@ -9292,6 +9292,11 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+.OfferProductsImg {
+  background-image: url(/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 p {
   margin: 0; }
 
@@ -9393,9 +9398,6 @@ figure {
       height: 18px; }
 
 .Offer {
-  background-image: url(/background-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   justify-content: center;
   padding-bottom: 45px;
@@ -9512,9 +9514,6 @@ figure {
       font-weight: 400; }
 
 .Products {
-  background-image: url(/background-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center; }

@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Offer from "@/components/Offer";
 import Preferences from "@/components/Preferences";
 import Products from "@/components/Products";
+import Selections from "@/components/Selections";
 
 import Head from "next/head";
 
@@ -22,10 +23,13 @@ export default function Home() {
           logoWidth={78}
           logoHeight={52}
         />
-        <Offer />
-        <Products />
+        <div className="OfferProductsImg">
+          <Offer />
+          <Products />
+        </div>
         <Benefits />
         <Preferences />
+        <Selections />
       </main>
     </>
   );
