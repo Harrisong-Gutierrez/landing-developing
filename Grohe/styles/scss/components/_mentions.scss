@@ -1,0 +1,21 @@
+.Mentions {
+    align-items: center;
+    background-color: $blue;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    &-content {
+        max-width: 328px;
+        width: 100%;
+        text-align: start;
+        margin-top: 24px;
+    }
+
+    &-text {
+        color: $white;
+        font-family: $font-hk-grotesk-regular;
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

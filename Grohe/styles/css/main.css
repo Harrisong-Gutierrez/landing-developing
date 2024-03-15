@@ -9750,6 +9750,23 @@ figure {
     .Selections-secondText-variant {
       font-weight: 700; }
 
+.Mentions {
+  align-items: center;
+  background-color: #0F2B4B;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+  .Mentions-content {
+    max-width: 328px;
+    width: 100%;
+    text-align: start;
+    margin-top: 24px; }
+  .Mentions-text {
+    color: #fdfefe;
+    font-family: "HKGrotesk Regular";
+    font-size: 12px;
+    line-height: 16px; }
+
 .Footer {
   align-items: center;
   background-color: #0F2B4B;
