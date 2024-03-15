@@ -9668,16 +9668,48 @@ figure {
   .Benefit-secondClassLogo {
     margin-right: 27px; }
 
-.Preferences-imgText {
-  position: relative; }
-
-.Preferences-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fdfefe;
-  width: 100%; }
+.Preferences {
+  align-items: center;
+  background-color: #fdfefe;
+  display: flex;
+  flex-direction: column; }
+  .Preferences-imgText {
+    position: relative; }
+  .Preferences-text {
+    color: #fdfefe;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    left: 50%;
+    line-height: 24px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%; }
+  .Preferences-title {
+    color: #2E2E2E;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    height: 64px;
+    line-height: 32px;
+    margin-bottom: 35px;
+    margin-top: 49px;
+    text-align: center;
+    width: 324px; }
+  .Preferences-content {
+    display: flex;
+    flex-direction: column;
+    gap: 11px; }
+  .Preferences-paragraph {
+    color: #2E2E2E;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 35px;
+    margin-bottom: 48px; }
 
 /*# sourceMappingURL=main.css.map */
