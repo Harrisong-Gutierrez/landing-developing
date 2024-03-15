@@ -33,6 +33,7 @@ export default function Home() {
         <Preferences />
         <Selections />
         <Mentions
+          logoImg="/VEEPEE-footer.png"
           firstText="Approfitta del bonus acqua potabile e risparmia fino a € 500*! È previsto un credito d'imposta del 50% delle spese sostenute per l'acquisto e l'installazione di sistemi di filtrazione dell’acqua.
 "
           secondText="
