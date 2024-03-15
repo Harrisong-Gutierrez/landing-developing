@@ -9481,8 +9481,8 @@ figure {
       height: 40px;
       text-align: center;
       margin-left: 29px;
-      margin: 26px;
       margin-bottom: 26px;
+      margin-top: 26px;
       font-size: 16px;
       line-height: 20px;
       font-family: "Inter", sans-serif;
@@ -9496,9 +9496,9 @@ figure {
       text-align: center;
       justify-content: center;
       align-items: center;
+      font-weight: 400;
       margin-left: 24px;
-      margin-right: 24px;
-      font-weight: 400; }
+      margin-right: 21px; }
     .Offer-secondBox-textTwo {
       width: 116px;
       height: 40px;
