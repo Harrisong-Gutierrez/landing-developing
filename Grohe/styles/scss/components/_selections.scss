@@ -1,0 +1,47 @@
+.Selections {
+    align-items: center;
+    background-image: $block-img;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+    &-title {
+        color: $black;
+        font-size: 24px;
+        font-weight: 500;
+        height: 64px;
+        line-height: 32px;
+        margin-top: 68px;
+        text-align: center;
+        width: 317px;
+    }
+
+    &-firstText {
+        color: $black;
+        font-family: $font-Inter-sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        height: 40px;
+        line-height: 20px;
+        margin-top: 282px;
+        width: 319.91px;
+    }
+
+    &-secondText {
+        color: $white;
+        font-family: $font-Inter-sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        height: 72px;
+        line-height: 24px;
+        text-align: center;
+        width: 310px;
+        margin-top: 69px;
+        margin-bottom: 33px;
+
+        &-variant {
+            font-weight: 700;
+        }
+    }
+}

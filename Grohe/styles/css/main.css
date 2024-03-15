@@ -9711,4 +9711,43 @@ figure {
     margin-top: 35px;
     margin-bottom: 48px; }
 
+.Selections {
+  align-items: center;
+  background-image: url(/selection.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column; }
+  .Selections-title {
+    color: #2E2E2E;
+    font-size: 24px;
+    font-weight: 500;
+    height: 64px;
+    line-height: 32px;
+    margin-top: 68px;
+    text-align: center;
+    width: 317px; }
+  .Selections-firstText {
+    color: #2E2E2E;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    line-height: 20px;
+    margin-top: 282px;
+    width: 319.91px; }
+  .Selections-secondText {
+    color: #fdfefe;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    height: 72px;
+    line-height: 24px;
+    text-align: center;
+    width: 310px;
+    margin-top: 69px;
+    margin-bottom: 33px; }
+    .Selections-secondText-variant {
+      font-weight: 700; }
+
 /*# sourceMappingURL=main.css.map */
