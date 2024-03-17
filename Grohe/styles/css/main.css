@@ -9715,7 +9715,7 @@ figure {
   align-items: center;
   background-image: url(/selection.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
   display: flex;
   flex-direction: column; }
   .Selections-title {
