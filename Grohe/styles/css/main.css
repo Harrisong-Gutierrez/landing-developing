@@ -9385,17 +9385,37 @@ figure {
     flex-direction: column-reverse;
     font-family: "Inter", sans-serif;
     font-size: 14px;
+    gap: 13px;
     height: auto;
     line-height: 18px;
     margin-bottom: 34px;
     margin-left: auto;
     margin-right: auto;
+    text-decoration: none;
     width: 98px;
-    gap: 13px;
-    text-decoration: none; }
+    font-weight: 400; }
     .Header-button-icon {
-      width: 12px;
-      height: 18px; }
+      height: 18px;
+      width: 12px; }
+  @media (min-width: 992px) {
+    .Header-logo {
+      width: 139.62px;
+      height: 93.08px; }
+    .Header-icon {
+      height: auto;
+      padding-top: 100.46px; }
+    .Header-title {
+      width: 767.52px;
+      height: 192.61px; }
+    .Header-title-text {
+      width: 767.52px;
+      height: auto;
+      font-family: "Inter", sans-serif;
+      font-weight: 900;
+      font-size: 114.66px;
+      line-height: 112.3px; }
+    .Header-button {
+      margin-bottom: 96px; } }
 
 .Offer {
   display: flex;
@@ -9409,9 +9429,9 @@ figure {
     justify-content: center;
     width: 78px; }
     .Offer-icon-customized {
-      width: 25px;
+      color: #2d7fbe;
       height: 25px;
-      color: #2d7fbe; }
+      width: 25px; }
   .Offer-title {
     display: flex;
     font-family: "Inter", sans-serif;
@@ -9472,46 +9492,104 @@ figure {
       text-align: center;
       width: 123px; }
   .Offer-secondBox {
+    align-items: center;
     background-color: #fdfefe;
     border-radius: 10px;
-    display: flex;
-    align-items: center; }
+    display: flex; }
     .Offer-secondBox-textOne {
-      width: 90px;
-      height: 40px;
-      text-align: center;
-      margin-left: 29px;
-      margin-bottom: 26px;
-      margin-top: 26px;
+      font-family: "Inter", sans-serif;
       font-size: 16px;
+      font-weight: 700;
+      height: 40px;
       line-height: 20px;
-      font-family: "Inter", sans-serif;
-      font-weight: 700; }
-    .Offer-secondBox-plus {
-      font-size: 16px;
-      font-family: "Inter", sans-serif;
-      width: 19px;
-      height: 16px;
-      display: flex;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      font-weight: 400;
-      margin-left: 24px;
-      margin-right: 21px; }
-    .Offer-secondBox-textTwo {
-      width: 116px;
-      height: 40px;
-      text-align: center;
+      margin-bottom: 26px;
+      margin-left: 29px;
       margin-top: 26px;
+      text-align: center;
+      width: 90px; }
+    .Offer-secondBox-plus {
+      align-items: center;
+      display: flex;
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      height: 16px;
+      justify-content: center;
+      margin-left: 24px;
+      margin-right: 21px;
+      text-align: center;
+      width: 19px; }
+    .Offer-secondBox-textTwo {
+      font-family: "Inter", sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+      height: 40px;
+      line-height: 20px;
       margin-bottom: 26px;
       margin-right: 29px;
-      font-size: 16px;
-      line-height: 20px;
-      font-family: "Inter", sans-serif;
-      font-weight: 700; }
+      margin-top: 26px;
+      text-align: center;
+      width: 116px; }
     .Offer-secondBox-firstSpan {
       font-weight: 400; }
+  @media (min-width: 992px) {
+    .Offer-title {
+      font-size: 36px;
+      font-weight: 500;
+      height: 50px;
+      line-height: 38px;
+      margin-bottom: 67px;
+      width: 659px; }
+    .Offer-content {
+      height: auto;
+      margin-top: 90px;
+      width: 659px; }
+    .Offer-firstbox-textOne {
+      font-size: 50px;
+      font-weight: 700;
+      height: 20px;
+      line-height: 20px;
+      margin-bottom: auto;
+      margin-left: 62px;
+      margin-top: auto;
+      width: 134px;
+      margin-right: 19.5px; }
+    .Offer-firstbox-textTwo {
+      margin-bottom: 42px;
+      margin-right: 61px;
+      margin-top: 42px;
+      width: 123px;
+      height: 44px;
+      font-size: 20px;
+      line-height: 22px;
+      margin-left: 19.5px; }
+    .Offer-firstbox {
+      margin-bottom: 26px; }
+    .Offer-secondBox-textTwo {
+      margin-bottom: 41px;
+      margin-right: 55px;
+      margin-top: 41px;
+      width: 170px;
+      height: 62px;
+      font-weight: 400;
+      font-size: 20px; }
+    .Offer-secondBox-firstSpan {
+      font-weight: 700; }
+    .Offer-secondBox-secondSpan {
+      font-weight: 700; }
+    .Offer-secondBox-textOne {
+      margin-bottom: 40.39px;
+      margin-left: 55px;
+      margin-top: 41px;
+      width: 140.87px;
+      height: 62.61px;
+      font-size: 20px;
+      line-height: 22px; }
+    .Offer-secondBox-plus {
+      margin-left: 38px;
+      margin-right: 18px;
+      font-size: 20px;
+      line-height: 22px; } }
 
 .Products {
   display: flex;

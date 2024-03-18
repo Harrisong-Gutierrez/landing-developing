@@ -8,6 +8,7 @@ const Header = ({ logoSrc, logoAlt, logoWidth, logoHeight }) => {
     <header className="Header">
       <figure className="Header-icon">
         <Image
+          className="Header-logo"
           src={logoSrc}
           alt={logoAlt}
           width={logoWidth}
