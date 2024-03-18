@@ -16,7 +16,13 @@ const Product = ({
   return (
     <div className="Product">
       <figure className="Product-image">
-        <Image src={imageSrc} alt="product-image" width={328} height={168} />
+        <Image
+          className="Product-img"
+          src={imageSrc}
+          alt="product-image"
+          width={328}
+          height={168}
+        />
       </figure>
 
       <div className="Product-content">

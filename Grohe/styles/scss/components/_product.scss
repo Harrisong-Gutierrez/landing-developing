@@ -1,4 +1,8 @@
 .Product {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
     &-content {
         align-items: center;
         display: flex;
@@ -66,5 +70,46 @@
         justify-content: center;
         text-decoration: none;
         width: 285px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-img {
+            height: 215px;
+            width: 450px;
+        }
+
+        &-title-firstVariantOne {
+            font-size: 20px;
+            line-height: 22px;
+            width: auto;
+        }
+
+        &-title-secondVariantTwo {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &-title-secondVariant {
+            height: auto;
+        }
+
+        &-content {
+            margin-top: 28px;
+            width: 450px;
+            gap: 23.99px;
+        }
+
+        &-subtitle {
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &-button {
+            width: 342.55px;
+            height: 45.58px;
+            font-size: 19.19px;
+            line-height: 24px;
+            font-family: $font-hk-grotesk-bold;
+        }
     }
 }

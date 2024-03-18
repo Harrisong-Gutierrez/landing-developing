@@ -49,14 +49,16 @@
     @include media-breakpoint-up(lg) {
         &-cards {
             flex-direction: row;
+            gap: 70px;
+            margin-bottom: 161.2px;
         }
 
         &-title {
-            width: 743px;
-            height: 97px;
             font-size: 28px;
+            height: 97px;
             line-height: 34px;
             margin-bottom: 16px;
+            width: 743px;
         }
 
         &-title-firstVariant {
@@ -68,12 +70,12 @@
         }
 
         &-subtitle {
-            width: 453px;
-            height: 40px;
             font-size: 16px;
+            height: 40px;
             line-height: 20px;
-            margin-top: 0;
             margin-bottom: 42px;
+            margin-top: 0;
+            width: 453px;
         }
     }
 }
