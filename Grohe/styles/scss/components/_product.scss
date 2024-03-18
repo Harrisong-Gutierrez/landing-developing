@@ -1,72 +1,70 @@
 .Product {
-  &-content {
-    height: 100%;
-    width: 328px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 24px;
-    gap: 20px;
-  }
-
-  &-title {
-    text-align: center;
-    color: $blue;
-
-    &-firstVariant {
-      width: 324px;
-      height: 32px;
-      display: flex;
-      flex-direction: column;
-
-      font-family: $font-Inter-sans-serif;
+    &-content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        margin-top: 24px;
+        width: 328px;
     }
 
-    &-firstVariantOne {
-      height: auto;
-      font-size: 18px;
-      line-height: 24px;
-      font-weight: 600;
+    &-title {
+        color: $blue;
+        text-align: center;
+
+        &-firstVariant {
+            display: flex;
+            flex-direction: column;
+            font-family: $font-Inter-sans-serif;
+            height: 32px;
+            width: 324px;
+        }
+
+        &-firstVariantOne {
+            font-size: 18px;
+            font-weight: 600;
+            height: auto;
+            line-height: 24px;
+        }
+
+        &-secondVariantTwo {
+            font-size: 16px;
+            font-weight: 600;
+            height: auto;
+            line-height: 24px;
+        }
+
+        &-secondVariant {
+            display: flex;
+            flex-direction: column;
+            height: 32px;
+            width: 324px;
+        }
     }
 
-    &-secondVariantTwo {
-      height: auto;
-      font-size: 16px;
-      line-height: 24px;
-
-      font-weight: 600;
+    &-subtitle {
+        color: $blue;
+        font-family: $font-Inter-sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        height: 36px;
+        line-height: 18px;
+        text-align: center;
     }
 
-    &-secondVariant {
-      width: 324px;
-      height: 32px;
-      display: flex;
-      flex-direction: column;
+    &-button {
+        align-items: center;
+        background-color: $white;
+        border: solid $pink-hard 1px;
+        border-radius: 4px;
+        color: $pink-hard;
+        display: flex;
+        flex-direction: row-reverse;
+        font-family: $font-hk-grotesk-bold;
+        height: 38px;
+        justify-content: center;
+        text-decoration: none;
+        width: 285px;
     }
-  }
-
-  &-subtitle {
-    text-align: center;
-    height: 36px;
-    font-size: 14px;
-    line-height: 18px;
-    font-family: $font-Inter-sans-serif;
-    font-weight: 400;
-    color: $blue;
-  }
-
-  &-button {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 285px;
-    height: 38px;
-    border-radius: 4px;
-    justify-content: center;
-    align-items: center;
-    color: $pink-hard;
-    font-family: $font-hk-grotesk-bold;
-    text-decoration: none;
-    background-color: $white;
-    border: solid $pink-hard 1px;
-  }
 }

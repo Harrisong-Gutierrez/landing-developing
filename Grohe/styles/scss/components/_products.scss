@@ -1,12 +1,12 @@
 .Products {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     &-cards {
         display: flex;
-        gap: 30px;
         flex-direction: column;
+        gap: 30px;
         margin-bottom: 50px;
     }
 
@@ -32,17 +32,48 @@
     }
 
     &-subtitle {
+        color: $blue-cosy;
         font-family: $font-Inter-sans-serif;
         font-size: 16px;
         font-weight: 400;
         height: 60px;
         line-height: 20px;
-        width: 305px;
-        text-align: center;
-        color: $blue-cosy;
+        margin-bottom: 14px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 8px;
-        margin-bottom: 14px;
+        text-align: center;
+        width: 305px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-cards {
+            flex-direction: row;
+        }
+
+        &-title {
+            width: 743px;
+            height: 97px;
+            font-size: 28px;
+            line-height: 34px;
+            margin-bottom: 16px;
+        }
+
+        &-title-firstVariant {
+            font-size: 28px;
+        }
+
+        &-title-secondVariant {
+            font-size: 28px;
+        }
+
+        &-subtitle {
+            width: 453px;
+            height: 40px;
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 0;
+            margin-bottom: 42px;
+        }
     }
 }

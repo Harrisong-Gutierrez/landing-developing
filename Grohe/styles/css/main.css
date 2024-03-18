@@ -9606,13 +9606,13 @@ figure {
     padding: 0; } }
 
 .Products {
+  align-items: center;
   display: flex;
-  flex-direction: column;
-  align-items: center; }
+  flex-direction: column; }
   .Products-cards {
     display: flex;
-    gap: 30px;
     flex-direction: column;
+    gap: 30px;
     margin-bottom: 50px; }
   .Products-title {
     color: #0F2B4B;
@@ -9630,75 +9630,95 @@ figure {
     .Products-title-secondVariant {
       font-size: 20px; }
   .Products-subtitle {
+    color: #143055;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     height: 60px;
     line-height: 20px;
-    width: 305px;
-    text-align: center;
-    color: #143055;
+    margin-bottom: 14px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 8px;
-    margin-bottom: 14px; }
+    text-align: center;
+    width: 305px; }
+  @media (min-width: 992px) {
+    .Products-cards {
+      flex-direction: row; }
+    .Products-title {
+      width: 743px;
+      height: 97px;
+      font-size: 28px;
+      line-height: 34px;
+      margin-bottom: 16px; }
+    .Products-title-firstVariant {
+      font-size: 28px; }
+    .Products-title-secondVariant {
+      font-size: 28px; }
+    .Products-subtitle {
+      width: 453px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 20px;
+      margin-top: 0;
+      margin-bottom: 42px; } }
 
 .Product-content {
-  height: 100%;
-  width: 328px;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 20px;
+  height: 100%;
   margin-top: 24px;
-  gap: 20px; }
+  width: 328px; }
 
 .Product-title {
-  text-align: center;
-  color: #0F2B4B; }
+  color: #0F2B4B;
+  text-align: center; }
   .Product-title-firstVariant {
-    width: 324px;
-    height: 32px;
     display: flex;
     flex-direction: column;
-    font-family: "Inter", sans-serif; }
-  .Product-title-firstVariantOne {
-    height: auto;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 600; }
-  .Product-title-secondVariantTwo {
-    height: auto;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 600; }
-  .Product-title-secondVariant {
-    width: 324px;
+    font-family: "Inter", sans-serif;
     height: 32px;
+    width: 324px; }
+  .Product-title-firstVariantOne {
+    font-size: 18px;
+    font-weight: 600;
+    height: auto;
+    line-height: 24px; }
+  .Product-title-secondVariantTwo {
+    font-size: 16px;
+    font-weight: 600;
+    height: auto;
+    line-height: 24px; }
+  .Product-title-secondVariant {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 32px;
+    width: 324px; }
 
 .Product-subtitle {
-  text-align: center;
-  height: 36px;
-  font-size: 14px;
-  line-height: 18px;
+  color: #0F2B4B;
   font-family: "Inter", sans-serif;
+  font-size: 14px;
   font-weight: 400;
-  color: #0F2B4B; }
+  height: 36px;
+  line-height: 18px;
+  text-align: center; }
 
 .Product-button {
+  align-items: center;
+  background-color: #fdfefe;
+  border: solid #EC008C 1px;
+  border-radius: 4px;
+  color: #EC008C;
   display: flex;
   flex-direction: row-reverse;
-  width: 285px;
-  height: 38px;
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-  color: #EC008C;
   font-family: "HKGrotesk Bold";
+  height: 38px;
+  justify-content: center;
   text-decoration: none;
-  background-color: #fdfefe;
-  border: solid #EC008C 1px; }
+  width: 285px; }
 
 .Benefits {
   align-items: center;
