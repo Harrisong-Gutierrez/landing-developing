@@ -9543,7 +9543,8 @@ figure {
     .Offer-content {
       height: auto;
       margin-top: 90px;
-      width: 659px; }
+      width: 659px;
+      margin-bottom: 121px; }
     .Offer-firstbox-textOne {
       font-size: 50px;
       font-weight: 700;
@@ -9551,45 +9552,58 @@ figure {
       line-height: 20px;
       margin-bottom: auto;
       margin-left: 62px;
+      margin-right: 19.5px;
       margin-top: auto;
-      width: 134px;
-      margin-right: 19.5px; }
+      width: 134px; }
     .Offer-firstbox-textTwo {
+      font-size: 20px;
+      height: 44px;
+      line-height: 22px;
       margin-bottom: 42px;
+      margin-left: 19.5px;
       margin-right: 61px;
       margin-top: 42px;
-      width: 123px;
-      height: 44px;
-      font-size: 20px;
-      line-height: 22px;
-      margin-left: 19.5px; }
+      width: 123px; }
     .Offer-firstbox {
       margin-bottom: 26px; }
     .Offer-secondBox-textTwo {
+      font-size: 20px;
+      font-weight: 400;
+      height: 62px;
       margin-bottom: 41px;
       margin-right: 55px;
       margin-top: 41px;
-      width: 170px;
-      height: 62px;
-      font-weight: 400;
-      font-size: 20px; }
+      width: 170px; }
     .Offer-secondBox-firstSpan {
       font-weight: 700; }
     .Offer-secondBox-secondSpan {
       font-weight: 700; }
     .Offer-secondBox-textOne {
+      font-size: 20px;
+      height: 62.61px;
+      line-height: 22px;
       margin-bottom: 40.39px;
       margin-left: 55px;
       margin-top: 41px;
-      width: 140.87px;
-      height: 62.61px;
-      font-size: 20px;
-      line-height: 22px; }
+      width: 140.87px; }
     .Offer-secondBox-plus {
+      font-size: 20px;
+      height: 25.04px;
+      line-height: 22px;
       margin-left: 38px;
       margin-right: 18px;
-      font-size: 20px;
-      line-height: 22px; } }
+      width: 29.74px; }
+    .Offer-icon-customized {
+      height: 57px;
+      width: 41px; }
+    .Offer-icon {
+      height: 57px;
+      margin-bottom: 20px;
+      width: 41px; } }
+
+@media (min-width: 992px) {
+  .Offer {
+    padding: 0; } }
 
 .Products {
   display: flex;

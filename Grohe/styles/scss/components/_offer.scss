@@ -158,6 +158,7 @@
             height: auto;
             margin-top: 90px;
             width: 659px;
+            margin-bottom: 121px;
         }
 
         &-firstbox-textOne {
@@ -167,20 +168,20 @@
             line-height: 20px;
             margin-bottom: auto;
             margin-left: 62px;
+            margin-right: 19.5px;
             margin-top: auto;
             width: 134px;
-            margin-right: 19.5px;
         }
 
         &-firstbox-textTwo {
+            font-size: 20px;
+            height: 44px;
+            line-height: 22px;
             margin-bottom: 42px;
+            margin-left: 19.5px;
             margin-right: 61px;
             margin-top: 42px;
             width: 123px;
-            height: 44px;
-            font-size: 20px;
-            line-height: 22px;
-            margin-left: 19.5px;
         }
 
         &-firstbox {
@@ -188,13 +189,13 @@
         }
 
         &-secondBox-textTwo {
+            font-size: 20px;
+            font-weight: 400;
+            height: 62px;
             margin-bottom: 41px;
             margin-right: 55px;
             margin-top: 41px;
             width: 170px;
-            height: 62px;
-            font-weight: 400;
-            font-size: 20px;
         }
 
         &-secondBox-firstSpan {
@@ -206,20 +207,39 @@
         }
 
         &-secondBox-textOne {
+            font-size: 20px;
+            height: 62.61px;
+            line-height: 22px;
             margin-bottom: 40.39px;
             margin-left: 55px;
             margin-top: 41px;
             width: 140.87px;
-            height: 62.61px;
-            font-size: 20px;
-            line-height: 22px;
         }
 
         &-secondBox-plus {
+            font-size: 20px;
+            height: 25.04px;
+            line-height: 22px;
             margin-left: 38px;
             margin-right: 18px;
-            font-size: 20px;
-            line-height: 22px;
+            width: 29.74px;
         }
+
+        &-icon-customized {
+            height: 57px;
+            width: 41px;
+        }
+
+        &-icon {
+            height: 57px;
+            margin-bottom: 20px;
+            width: 41px;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .Offer {
+        padding: 0;
     }
 }
