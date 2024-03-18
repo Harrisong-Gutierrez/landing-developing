@@ -30,11 +30,13 @@ const Benefits = () => {
           height={263}
         />
       </figure>
-      <div className="Benefits-textContent">
-        <h2 className="Benefits-title">Scopri i vantaggi di GROHE Blue:</h2>
-        <p className="Benefits-text">perfetto per qualsiasi cucina</p>
+      <div className="Benefits-main">
+        <div className="Benefits-textContent">
+          <h2 className="Benefits-title">Scopri i vantaggi di GROHE Blue:</h2>
+          <p className="Benefits-text">perfetto per qualsiasi cucina</p>
+        </div>
+        <div className="Benefits-list">{renderBenefitsList()}</div>
       </div>
-      <div className="Benefits-list">{renderBenefitsList()}</div>
     </section>
   );
 };

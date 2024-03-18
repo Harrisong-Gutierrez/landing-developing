@@ -44,4 +44,50 @@
         gap: 38px;
         margin-bottom: 47px;
     }
+
+    @include media-breakpoint-up(lg) {
+        &-cover {
+            width: 50%;
+            visibility: hidden;
+        }
+
+        &-textContent {
+            width: 450px;
+            height: 68px;
+
+            // margin: auto;
+            margin-top: auto;
+            margin-bottom: 60px;
+        }
+
+        &-title {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 34px;
+        }
+
+        &-text {
+            font-weight: 600;
+            font-size: 28px;
+            line-height: 34px;
+        }
+
+        &-list {
+            gap: 0;
+            height: 408.23px;
+            justify-content: space-around;
+            margin-bottom: 0;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .Benefits {
+        flex-direction: row;
+        background-image: $benefits-cover-desktop;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: $skyBlue;
+        justify-content: center;
+    }
 }

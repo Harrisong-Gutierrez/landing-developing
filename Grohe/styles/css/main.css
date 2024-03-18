@@ -9783,6 +9783,37 @@ figure {
     flex-direction: column;
     gap: 38px;
     margin-bottom: 47px; }
+  @media (min-width: 992px) {
+    .Benefits-cover {
+      width: 50%;
+      visibility: hidden; }
+    .Benefits-textContent {
+      width: 450px;
+      height: 68px;
+      margin-top: auto;
+      margin-bottom: 60px; }
+    .Benefits-title {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 34px; }
+    .Benefits-text {
+      font-weight: 600;
+      font-size: 28px;
+      line-height: 34px; }
+    .Benefits-list {
+      gap: 0;
+      height: 408.23px;
+      justify-content: space-around;
+      margin-bottom: 0; } }
+
+@media (min-width: 992px) {
+  .Benefits {
+    flex-direction: row;
+    background-image: url(/benefits-cover-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #caeafd;
+    justify-content: center; } }
 
 .Benefit {
   align-items: center;
@@ -9807,6 +9838,15 @@ figure {
     margin-right: 35px; }
   .Benefit-secondClassLogo {
     margin-right: 27px; }
+  @media (min-width: 992px) {
+    .Benefit-title {
+      font-size: 20px;
+      line-height: 22px; }
+    .Benefit-text {
+      width: 464px;
+      height: auto;
+      font-size: 20px;
+      line-height: 22px; } }
 
 .Preferences {
   align-items: center;
