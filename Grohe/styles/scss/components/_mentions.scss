@@ -37,29 +37,37 @@
         font-family: "HKGrotesk Bold";
         height: 38px;
         justify-content: center;
-        margin-top: 18px;
         margin-bottom: 17px;
+        margin-top: 18px;
         text-decoration: none;
         width: 256px;
     }
 
     @include media-breakpoint-up(lg) {
         &-button {
-            width: 357px;
-            height: 49.45px;
             font-size: 20px;
+            height: 49.45px;
             line-height: 22px;
+            width: 357px;
+            margin-top: auto;
+            margin-bottom: 84.12px;
         }
 
         &-textOne {
-            width: 1440px;
-            height: 32px;
             font-size: 12px;
+            height: 32px;
             line-height: 16px;
+            width: 1440px;
+            margin-bottom: 42px;
         }
 
         &-content {
+            display: flex;
+            justify-content: center;
             max-width: 100%;
+            max-width: 1005px;
+            text-align: center;
+            margin-top: auto;
         }
     }
 }

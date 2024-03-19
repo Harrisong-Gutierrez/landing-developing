@@ -10031,23 +10031,31 @@ figure {
     font-family: "HKGrotesk Bold";
     height: 38px;
     justify-content: center;
-    margin-top: 18px;
     margin-bottom: 17px;
+    margin-top: 18px;
     text-decoration: none;
     width: 256px; }
   @media (min-width: 992px) {
     .Mentions-button {
-      width: 357px;
-      height: 49.45px;
       font-size: 20px;
-      line-height: 22px; }
+      height: 49.45px;
+      line-height: 22px;
+      width: 357px;
+      margin-top: auto;
+      margin-bottom: 84.12px; }
     .Mentions-textOne {
-      width: 1440px;
-      height: 32px;
       font-size: 12px;
-      line-height: 16px; }
+      height: 32px;
+      line-height: 16px;
+      width: 1440px;
+      margin-bottom: 42px; }
     .Mentions-content {
-      max-width: 100%; } }
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+      max-width: 1005px;
+      text-align: center;
+      margin-top: auto; } }
 
 .Selections-Mentions {
   display: none; }
