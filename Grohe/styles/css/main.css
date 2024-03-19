@@ -10011,7 +10011,12 @@ figure {
     max-width: 328px;
     text-align: start;
     width: 100%; }
-  .Mentions-text {
+  .Mentions-textOne {
+    color: #fdfefe;
+    font-family: "HKGrotesk Regular";
+    font-size: 12px;
+    line-height: 16px; }
+  .Mentions-textTwo {
     color: #fdfefe;
     font-family: "HKGrotesk Regular";
     font-size: 12px;
@@ -10030,6 +10035,30 @@ figure {
     margin-bottom: 17px;
     text-decoration: none;
     width: 256px; }
+  @media (min-width: 992px) {
+    .Mentions-button {
+      width: 357px;
+      height: 49.45px;
+      font-size: 20px;
+      line-height: 22px; }
+    .Mentions-textOne {
+      width: 1440px;
+      height: 32px;
+      font-size: 12px;
+      line-height: 16px; }
+    .Mentions-content {
+      max-width: 100%; } }
+
+.Selections-Mentions {
+  display: none; }
+
+@media (min-width: 992px) {
+  .Selections-Mentions {
+    display: flex; }
+  .Footer-mentions {
+    display: none; }
+  .Mentions {
+    background-color: #3984be; } }
 
 .Footer {
   align-items: center;

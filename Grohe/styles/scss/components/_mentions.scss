@@ -13,7 +13,14 @@
         width: 100%;
     }
 
-    &-text {
+    &-textOne {
+        color: $white;
+        font-family: $font-hk-grotesk-regular;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &-textTwo {
         color: $white;
         font-family: $font-hk-grotesk-regular;
         font-size: 12px;
@@ -34,5 +41,43 @@
         margin-bottom: 17px;
         text-decoration: none;
         width: 256px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-button {
+            width: 357px;
+            height: 49.45px;
+            font-size: 20px;
+            line-height: 22px;
+        }
+
+        &-textOne {
+            width: 1440px;
+            height: 32px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        &-content {
+            max-width: 100%;
+        }
+    }
+}
+
+.Selections-Mentions {
+    display: none;
+}
+
+@include media-breakpoint-up(lg) {
+    .Selections-Mentions {
+        display: flex;
+    }
+
+    .Footer-mentions {
+        display: none;
+    }
+
+    .Mentions {
+        background-color: $blue-sky;
     }
 }

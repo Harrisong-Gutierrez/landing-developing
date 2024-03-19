@@ -22,11 +22,10 @@ const Selections = () => {
         </p>
       </section>
       <Mentions
+        mentionsClass="Mentions  Selections-Mentions"
         logoImg="/VEEPEE-footer.png"
         firstText="Approfitta del bonus acqua potabile e risparmia fino a € 500*! È previsto un credito d'imposta del 50% delle spese sostenute per l'acquisto e l'installazione di sistemi di filtrazione dell’acqua.
 "
-        secondText="
-Tutti i nostri sistemi GROHE Blue rientrano nei requisiti previsti dalla normativa. Per leggere la normativa clicca qui."
       />
     </>
   );
