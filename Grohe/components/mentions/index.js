@@ -11,7 +11,7 @@ const Mentions = ({ firstText, secondText, logoImg, mentionsClass }) => {
         textContent="Accedi alla vendita"
         styleLink="Mentions-button"
       >
-        <figure>
+        <figure className="Mentions-img">
           <Image src={logoImg} alt="product-logo" width={18} height={18} />
         </figure>
       </Button>
