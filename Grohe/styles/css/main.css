@@ -9792,6 +9792,13 @@ figure {
       height: 68px;
       margin-top: auto;
       margin-bottom: 60px; }
+    .Benefits-main {
+      margin-top: 116px;
+      margin-bottom: 105px;
+      margin-top: 116px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
     .Benefits-title {
       font-weight: 600;
       font-size: 28px;
