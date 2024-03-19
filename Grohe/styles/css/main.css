@@ -9785,27 +9785,27 @@ figure {
     margin-bottom: 47px; }
   @media (min-width: 992px) {
     .Benefits-cover {
-      width: 50%;
-      visibility: hidden; }
+      visibility: hidden;
+      width: 50%; }
     .Benefits-textContent {
-      width: 450px;
       height: 68px;
+      margin-bottom: 60px;
       margin-top: auto;
-      margin-bottom: 60px; }
+      width: 450px; }
     .Benefits-main {
-      margin-top: 116px;
-      margin-bottom: 105px;
-      margin-top: 116px;
+      align-items: center;
       display: flex;
       flex-direction: column;
-      align-items: center; }
+      margin-bottom: 105px;
+      margin-top: 116px;
+      margin-top: 116px; }
     .Benefits-title {
-      font-weight: 600;
       font-size: 28px;
+      font-weight: 600;
       line-height: 34px; }
     .Benefits-text {
-      font-weight: 600;
       font-size: 28px;
+      font-weight: 600;
       line-height: 34px; }
     .Benefits-list {
       gap: 0;
@@ -9815,11 +9815,11 @@ figure {
 
 @media (min-width: 992px) {
   .Benefits {
-    flex-direction: row;
+    background-color: #caeafd;
     background-image: url(/benefits-cover-desktop.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #caeafd;
+    flex-direction: row;
     justify-content: center; } }
 
 .Benefit {
@@ -9848,12 +9848,13 @@ figure {
   @media (min-width: 992px) {
     .Benefit-title {
       font-size: 20px;
-      line-height: 22px; }
+      line-height: 22px;
+      margin-bottom: 6px; }
     .Benefit-text {
-      width: 464px;
-      height: auto;
       font-size: 20px;
-      line-height: 22px; } }
+      height: auto;
+      line-height: 22px;
+      width: 464px; } }
 
 .Preferences {
   align-items: center;

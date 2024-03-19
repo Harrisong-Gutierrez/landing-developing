@@ -34,13 +34,14 @@
         &-title {
             font-size: 20px;
             line-height: 22px;
+            margin-bottom: 6px;
         }
 
         &-text {
-            width: 464px;
-            height: auto;
             font-size: 20px;
+            height: auto;
             line-height: 22px;
+            width: 464px;
         }
     }
 }

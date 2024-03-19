@@ -47,35 +47,35 @@
 
     @include media-breakpoint-up(lg) {
         &-cover {
-            width: 50%;
             visibility: hidden;
+            width: 50%;
         }
 
         &-textContent {
-            width: 450px;
             height: 68px;
-            margin-top: auto;
             margin-bottom: 60px;
+            margin-top: auto;
+            width: 450px;
         }
 
         &-main {
-            margin-top: 116px;
-            margin-bottom: 105px;
-            margin-top: 116px;
+            align-items: center;
             display: flex;
             flex-direction: column;
-            align-items: center;
+            margin-bottom: 105px;
+            margin-top: 116px;
+            margin-top: 116px;
         }
 
         &-title {
-            font-weight: 600;
             font-size: 28px;
+            font-weight: 600;
             line-height: 34px;
         }
 
         &-text {
-            font-weight: 600;
             font-size: 28px;
+            font-weight: 600;
             line-height: 34px;
         }
 
@@ -90,11 +90,11 @@
 
 @include media-breakpoint-up(lg) {
     .Benefits {
-        flex-direction: row;
+        background-color: $skyBlue;
         background-image: $benefits-cover-desktop;
         background-repeat: no-repeat;
         background-size: cover;
-        background-color: $skyBlue;
+        flex-direction: row;
         justify-content: center;
     }
 }

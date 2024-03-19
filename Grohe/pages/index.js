@@ -6,7 +6,6 @@ import Preferences from "@/components/Preferences";
 import Products from "@/components/Products";
 import Selections from "@/components/Selections";
 import Mentions from "@/components/mentions";
-
 import Head from "next/head";
 
 export default function Home() {
