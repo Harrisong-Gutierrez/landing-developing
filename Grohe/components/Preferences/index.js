@@ -9,19 +9,37 @@ const Preferences = () => {
       <div className="Preferences-content">
         <div className="Preferences-imgText">
           <figure className="Preferences-image">
-            <Image src="/Rectangle1.png" alt="" width={328} height={103} />
+            <Image
+              className="Preferences-img"
+              src="/Rectangle1.png"
+              alt=""
+              width={328}
+              height={103}
+            />
           </figure>
           <p className="Preferences-text">NATURALE</p>
         </div>
         <div className="Preferences-imgText">
           <figure className="Preferences-image">
-            <Image src="/Rectangle2.png" alt="" width={328} height={103} />
+            <Image
+              className="Preferences-img"
+              src="/Rectangle2.png"
+              alt=""
+              width={328}
+              height={103}
+            />
           </figure>
           <p className="Preferences-text">LEGGERMENTE FRIZZANTE</p>
         </div>
         <div className="Preferences-imgText">
           <figure className="Preferences-image">
-            <Image src="/Rectangle3.png" alt="" width={328} height={103} />
+            <Image
+              className="Preferences-img"
+              src="/Rectangle3.png"
+              alt=""
+              width={328}
+              height={103}
+            />
           </figure>
           <p className="Preferences-text">FRIZZANTE</p>
         </div>
