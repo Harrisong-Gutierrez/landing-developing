@@ -9918,9 +9918,9 @@ figure {
     .Preferences-paragraph {
       font-size: 20px;
       line-height: 22px;
-      width: 298px;
+      margin-bottom: 122px;
       margin-top: 68px;
-      margin-bottom: 122px; } }
+      width: 298px; } }
 
 .Selections {
   align-items: center;
@@ -9954,12 +9954,50 @@ figure {
     font-weight: 400;
     height: 72px;
     line-height: 24px;
-    text-align: center;
-    width: 310px;
+    margin-bottom: 33px;
     margin-top: 69px;
-    margin-bottom: 33px; }
+    text-align: center;
+    width: 310px; }
     .Selections-secondText-variant {
       font-weight: 700; }
+  @media (min-width: 992px) {
+    .Selections-firstText {
+      font-size: 16px;
+      height: 40px;
+      line-height: 20px;
+      margin-top: auto;
+      text-align: center;
+      width: 488px; }
+    .Selections-secondText {
+      display: flex;
+      font-size: 20px;
+      height: 22px;
+      line-height: 22px;
+      margin-bottom: 68.42px;
+      margin-top: 277px;
+      width: auto; }
+    .Selections-title {
+      font-size: 36px;
+      height: 38px;
+      line-height: 38px;
+      margin-bottom: 34px;
+      margin-top: auto;
+      width: 804px; }
+    .Selections-content {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 112px;
+      margin-left: 912px;
+      margin-top: 235px;
+      width: auto; } }
+
+@media (min-width: 992px) {
+  .Selections {
+    align-items: center;
+    background-image: url(/selection-background.png);
+    background-repeat: no-repeat;
+    background-size: cover; } }
 
 .Mentions {
   align-items: center;

@@ -35,13 +35,62 @@
         font-weight: 400;
         height: 72px;
         line-height: 24px;
+        margin-bottom: 33px;
+        margin-top: 69px;
         text-align: center;
         width: 310px;
-        margin-top: 69px;
-        margin-bottom: 33px;
 
         &-variant {
             font-weight: 700;
         }
+    }
+
+    @include media-breakpoint-up(lg) {
+        &-firstText {
+            font-size: 16px;
+            height: 40px;
+            line-height: 20px;
+            margin-top: auto;
+            text-align: center;
+            width: 488px;
+        }
+
+        &-secondText {
+            display: flex;
+            font-size: 20px;
+            height: 22px;
+            line-height: 22px;
+            margin-bottom: 68.42px;
+            margin-top: 277px;
+            width: auto;
+        }
+
+        &-title {
+            font-size: 36px;
+            height: 38px;
+            line-height: 38px;
+            margin-bottom: 34px;
+            margin-top: auto;
+            width: 804px;
+        }
+
+        &-content {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 112px;
+            margin-left: 912px;
+            margin-top: 235px;
+            width: auto;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .Selections {
+        align-items: center;
+        background-image: $selection-background;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
