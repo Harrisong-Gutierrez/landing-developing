@@ -19,4 +19,13 @@
         text-align: center;
         width: 246px;
     }
+
+    @include media-breakpoint-up(lg) {
+        &-image {
+            margin-bottom: 28.5px;
+            margin-top: 26.5px;
+            width: 246px;
+            height: 52px;
+        }
+    }
 }

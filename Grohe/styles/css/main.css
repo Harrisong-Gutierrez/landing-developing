@@ -10085,5 +10085,11 @@ figure {
     margin-bottom: 11px;
     text-align: center;
     width: 246px; }
+  @media (min-width: 992px) {
+    .Footer-image {
+      margin-bottom: 28.5px;
+      margin-top: 26.5px;
+      width: 246px;
+      height: 52px; } }
 
 /*# sourceMappingURL=main.css.map */
