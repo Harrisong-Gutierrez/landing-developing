@@ -9400,7 +9400,9 @@ figure {
   @media (min-width: 768px) {
     .Header-title-text {
       font-size: 26px;
-      text-align: center; } }
+      text-align: center; }
+    .Header-icon {
+      padding-top: 71.6px; } }
   @media (min-width: 992px) {
     .Header-logo {
       width: 139.62px;
@@ -9656,7 +9658,9 @@ figure {
     width: 305px; }
   @media (min-width: 768px) {
     .Products-cards {
-      flex-direction: row; } }
+      flex-direction: row; }
+    .Products-title {
+      width: auto; } }
   @media (min-width: 992px) {
     .Products-cards {
       flex-direction: row;
