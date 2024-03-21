@@ -43,6 +43,13 @@
         width: 256px;
     }
 
+    @include media-breakpoint-up(md) {
+        &-content {
+            max-width: 507px;
+        }
+    }
+
+
     @include media-breakpoint-up(lg) {
         &-button {
             font-size: 20px;

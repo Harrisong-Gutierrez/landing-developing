@@ -29,3 +29,16 @@
         }
     }
 }
+
+@include media-breakpoint-up(md) {
+    .Footer {
+        margin-bottom: 29%;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .Footer {
+        margin-bottom: auto;
+    }
+}

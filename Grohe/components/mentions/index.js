@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import Button from "../Button";
 import Image from "next/image";
 
-const Mentions = ({ firstText, secondText, logoImg, mentionsClass }) => {
+const Mentions = ({ firstText, secondText = "", logoImg, mentionsClass }) => {
   return (
     <section className={mentionsClass}>
       <Button
@@ -25,7 +25,7 @@ const Mentions = ({ firstText, secondText, logoImg, mentionsClass }) => {
 
 Mentions.propTypes = {
   firstText: PropTypes.string.isRequired,
-  secondText: PropTypes.string.isRequired,
+  secondText: PropTypes.string,
   logoImg: PropTypes.string.isRequired,
   mentionsClass: PropTypes.string.isRequired,
 };

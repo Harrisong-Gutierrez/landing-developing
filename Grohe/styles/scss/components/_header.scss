@@ -64,6 +64,14 @@
         }
     }
 
+    @include media-breakpoint-up(md) {
+        &-title-text {
+            font-size: 26px;
+            text-align: center;
+        }
+    }
+
+
     @include media-breakpoint-up(lg) {
         &-logo {
             width: 139.62px;
@@ -92,5 +100,18 @@
         &-button {
             margin-bottom: 96px;
         }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    .Header {
+        height: 79vh;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .Header {
+        height: 100vh;
     }
 }

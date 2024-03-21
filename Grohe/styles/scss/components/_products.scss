@@ -46,6 +46,13 @@
         width: 305px;
     }
 
+    @include media-breakpoint-up(md) {
+        &-cards {
+            flex-direction: row;
+        }
+    }
+
+
     @include media-breakpoint-up(lg) {
         &-cards {
             flex-direction: row;

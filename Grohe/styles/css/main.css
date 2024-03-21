@@ -9397,6 +9397,10 @@ figure {
     .Header-button-icon {
       height: 18px;
       width: 12px; }
+  @media (min-width: 768px) {
+    .Header-title-text {
+      font-size: 26px;
+      text-align: center; } }
   @media (min-width: 992px) {
     .Header-logo {
       width: 139.62px;
@@ -9416,6 +9420,14 @@ figure {
       line-height: 112.3px; }
     .Header-button {
       margin-bottom: 96px; } }
+
+@media (min-width: 576px) {
+  .Header {
+    height: 79vh; } }
+
+@media (min-width: 992px) {
+  .Header {
+    height: 100vh; } }
 
 .Offer {
   display: flex;
@@ -9642,6 +9654,9 @@ figure {
     margin-top: 8px;
     text-align: center;
     width: 305px; }
+  @media (min-width: 768px) {
+    .Products-cards {
+      flex-direction: row; } }
   @media (min-width: 992px) {
     .Products-cards {
       flex-direction: row;
@@ -9783,7 +9798,21 @@ figure {
     flex-direction: column;
     gap: 38px;
     margin-bottom: 47px; }
+  @media (min-width: 768px) {
+    .Benefits-cover-img {
+      height: 500px; }
+    .Benefits-main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 24px; }
+    .Benefits-list {
+      justify-content: center;
+      flex-wrap: wrap;
+      flex-direction: row; } }
   @media (min-width: 992px) {
+    .Benefits-cover-img {
+      height: auto; }
     .Benefits-cover {
       visibility: hidden;
       width: 50%; }
@@ -9797,7 +9826,6 @@ figure {
       display: flex;
       flex-direction: column;
       margin-bottom: 105px;
-      margin-top: 116px;
       margin-top: 116px; }
     .Benefits-title {
       font-size: 28px;
@@ -9811,7 +9839,9 @@ figure {
       gap: 0;
       height: 408.23px;
       justify-content: space-around;
-      margin-bottom: 0; } }
+      margin-bottom: 0;
+      display: flex;
+      flex-direction: column; } }
 
 @media (min-width: 992px) {
   .Benefits {
@@ -9899,6 +9929,11 @@ figure {
     line-height: 20px;
     margin-bottom: 48px;
     margin-top: 35px; }
+  @media (min-width: 768px) {
+    .Preferences-title {
+      width: auto; }
+    .Preferences-img {
+      width: 465px; } }
   @media (min-width: 992px) {
     .Preferences-title {
       font-size: 36px;
@@ -9960,6 +9995,14 @@ figure {
     width: 310px; }
     .Selections-secondText-variant {
       font-weight: 700; }
+  @media (min-width: 768px) {
+    .Selections-title {
+      margin-top: 90px;
+      width: auto; }
+    .Selections-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center; } }
   @media (min-width: 992px) {
     .Selections-firstText {
       font-size: 16px;
@@ -10035,6 +10078,9 @@ figure {
     margin-top: 18px;
     text-decoration: none;
     width: 256px; }
+  @media (min-width: 768px) {
+    .Mentions-content {
+      max-width: 507px; } }
   @media (min-width: 992px) {
     .Mentions-button {
       font-size: 20px;
@@ -10091,5 +10137,13 @@ figure {
       margin-top: 26.5px;
       width: 246px;
       height: 52px; } }
+
+@media (min-width: 768px) {
+  .Footer {
+    margin-bottom: 29%; } }
+
+@media (min-width: 992px) {
+  .Footer {
+    margin-bottom: auto; } }
 
 /*# sourceMappingURL=main.css.map */

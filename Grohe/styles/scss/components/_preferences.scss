@@ -52,6 +52,17 @@
         margin-top: 35px;
     }
 
+    @include media-breakpoint-up(md) {
+        &-title {
+            width: auto;
+        }
+
+        &-img {
+            width: 465px;
+        }
+    }
+
+
     @include media-breakpoint-up(lg) {
         &-title {
             font-size: 36px;
