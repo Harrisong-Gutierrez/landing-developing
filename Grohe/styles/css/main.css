@@ -9425,7 +9425,7 @@ figure {
 
 @media (min-width: 576px) {
   .Header {
-    height: 79vh; } }
+    height: 82vh; } }
 
 @media (min-width: 992px) {
   .Header {
@@ -9718,7 +9718,6 @@ figure {
     .Product-title-secondVariant {
       display: flex;
       flex-direction: column;
-      height: 32px;
       width: 324px; }
   .Product-subtitle {
     color: #0F2B4B;
@@ -10144,7 +10143,7 @@ figure {
 
 @media (min-width: 768px) {
   .Footer {
-    margin-bottom: 29%; } }
+    margin-bottom: 25%; } }
 
 @media (min-width: 992px) {
   .Footer {

@@ -42,7 +42,8 @@
         &-secondVariant {
             display: flex;
             flex-direction: column;
-            height: 32px;
+
+            // height: 32px;
             width: 324px;
         }
     }
@@ -71,9 +72,6 @@
         text-decoration: none;
         width: 285px;
     }
-
-   
-
 
     @include media-breakpoint-up(lg) {
         &-img {
