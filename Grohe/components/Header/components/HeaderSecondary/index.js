@@ -25,8 +25,9 @@ const HeaderSecondary = ({ onReturnButtonClick }) => {
           textContent="Scopri l'offerta"
           onClick={onReturnButtonClick}
           href="/"
-        />
-        <IoIosArrowDown className="Header-button-icon" />
+        >
+          <IoIosArrowDown className="Header-button-icon" />
+        </Button>
       </div>
     </section>
   );
