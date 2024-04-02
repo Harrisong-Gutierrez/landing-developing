@@ -11,10 +11,13 @@ const Product = ({
   subtitle,
   subtitleClass,
   imageSrc,
-  animationSrc,
+  animationSrc = "",
+  animationWidth,
+  animationHeight,
   logoImg,
   titleClass,
   titleClassVariant,
+  animationClass,
 }) => {
   useEffect(() => {
     AOS.init({});
@@ -31,17 +34,18 @@ const Product = ({
           height={168}
         />
       </figure>
-      <div className="Animation-overlay" data-aos="fade-right">
-        <figure>
+      <div className={animationClass} data-aos="fade-right">
+        <figure className="">
           <Image
             className=""
             src={animationSrc}
             alt="product-image-animation"
-            width={27}
-            height={27}
+            width={animationWidth}
+            height={animationHeight}
           />
         </figure>
       </div>
+
       <div className="Product-content">
         <h2 className={titleClass}>
           {title}
@@ -69,7 +73,10 @@ Product.propTypes = {
   subtitleClass: PropTypes.string.isRequired,
   imageSrc: PropTypes.string.isRequired,
   logoImg: PropTypes.string.isRequired,
-  animationSrc: PropTypes.string.isRequired,
+  animationSrc: PropTypes.string,
+  animationWidth: PropTypes.number.isRequired,
+  animationHeight: PropTypes.number.isRequired,
+  animationClass: PropTypes.string.isRequired,
 };
 
 export default Product;

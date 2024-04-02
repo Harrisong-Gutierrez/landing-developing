@@ -113,6 +113,36 @@
             font-family: $font-hk-grotesk-bold;
         }
     }
+
+
+    &-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+
+    &-disappearOne {
+        display: none;
+    }
+
+    &-disappearTwo {
+        display: none;
+    }
+
+    &-animate {
+        opacity: 1;
+        transform: none;
+        left: 8px;
+        top: 49.35px;
+    }
+
+    &-secondAnimate {
+        opacity: 1;
+        transform: none;
+        left: -60%;
+        top: 49.35px;
+    }
 }
 
 .Product {
@@ -131,9 +161,9 @@
     z-index: 1;
 }
 
-html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
-    opacity: 1;
-    transform: none;
-    left: 8px;
-    top: 49.35px;
-}
+// .aos-animate {
+//     opacity: 1;
+//     transform: none;
+//     left: 8px;
+//     top: 49.35px;
+// }
