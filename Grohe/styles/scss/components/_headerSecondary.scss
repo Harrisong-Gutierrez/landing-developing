@@ -50,3 +50,16 @@
         width: 98px;
     }
 }
+
+@include media-breakpoint-up(md) {
+    .HeaderSecondary {
+        height: 81vh;
+    }
+}
+
+
+@include media-breakpoint-up(lg) {
+    .HeaderSecondary {
+        height: 100vh;
+    }
+}

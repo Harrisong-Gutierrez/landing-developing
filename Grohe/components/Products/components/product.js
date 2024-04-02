@@ -19,6 +19,7 @@ const Product = ({
   titleClass,
   titleClassVariant,
   animationClass,
+  wavesClass,
 }) => {
   useEffect(() => {
     AOS.init({});
@@ -70,7 +71,7 @@ const Product = ({
           </figure>
         </div>
 
-        <figure className="">
+        <figure className={wavesClass}>
           <Image
             className=""
             src={animationSrc}
@@ -113,6 +114,7 @@ Product.propTypes = {
   animationHeight: PropTypes.number.isRequired,
   animationClass: PropTypes.string.isRequired,
   glassesClass: PropTypes.string.isRequired,
+  wavesClass: PropTypes.string.isRequired,
 };
 
 export default Product;

@@ -158,6 +158,37 @@
     &-hideElement {
         display: none;
     }
+
+    @include media-breakpoint-up(md) {
+        &-glasses {
+            left: 72%;
+            top: -12.25px;
+        }
+
+        &-animate {
+            top: 60px;
+        }
+
+        &-waves {
+            visibility: hidden;
+        }
+    }
+
+
+    @include media-breakpoint-up(lg) {
+        &-glasses {
+            left: 99%;
+            top: -12.25px;
+        }
+
+        &-animate {
+            top: 60px;
+        }
+
+        &-waves {
+            visibility: hidden;
+        }
+    }
 }
 
 .Product {
@@ -175,10 +206,3 @@
     left: 0;
     z-index: 1;
 }
-
-// .aos-animate {
-//     opacity: 1;
-//     transform: none;
-//     left: 8px;
-//     top: 49.35px;
-// }
