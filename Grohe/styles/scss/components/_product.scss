@@ -140,8 +140,23 @@
     &-secondAnimate {
         opacity: 1;
         transform: none;
-        left: -60%;
-        top: 49.35px;
+        left: -66%;
+        top: 68px;
+    }
+
+    &-glasses {
+        opacity: 1;
+        transform: none;
+        left: 69%;
+        position: absolute;
+        top: -32px;
+        width: auto;
+        display: flex;
+        gap: 4px;
+    }
+
+    &-hideElement {
+        display: none;
     }
 }
 

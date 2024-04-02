@@ -14,6 +14,7 @@ const Product = ({
   animationSrc = "",
   animationWidth,
   animationHeight,
+  glassesClass,
   logoImg,
   titleClass,
   titleClassVariant,
@@ -35,6 +36,36 @@ const Product = ({
         />
       </figure>
       <div className={animationClass} data-aos="fade-right">
+        <div className={glassesClass}>
+          <figure>
+            <Image
+              className=""
+              src="/glass.png"
+              alt="product-image-animation"
+              width={27}
+              height={27}
+            />
+          </figure>
+          <figure>
+            <Image
+              className=""
+              src="/glass.png"
+              alt="product-image-animation"
+              width={27}
+              height={27}
+            />
+          </figure>
+          <figure>
+            <Image
+              className=""
+              src="/glass.png"
+              alt="product-image-animation"
+              width={27}
+              height={27}
+            />
+          </figure>
+        </div>
+
         <figure className="">
           <Image
             className=""
@@ -77,6 +108,7 @@ Product.propTypes = {
   animationWidth: PropTypes.number.isRequired,
   animationHeight: PropTypes.number.isRequired,
   animationClass: PropTypes.string.isRequired,
+  glassesClass: PropTypes.string.isRequired,
 };
 
 export default Product;

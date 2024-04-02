@@ -15,6 +15,7 @@ const Products = () => {
       </p>
       <div className="Products-cards">
         <Product
+          glassesClass="Product-hideElement"
           animationClass="Product-overlay  Product-animate"
           animationWidth={27}
           animationHeight={27}
@@ -30,6 +31,7 @@ const Products = () => {
           subtitle="Acqua filtrata naturale a temperatura ambiente dal gusto delizioso."
         />
         <Product
+          glassesClass="Product-glasses"
           animationClass="Product-overlay  Product-secondAnimate"
           animationWidth={326}
           animationHeight={73}
