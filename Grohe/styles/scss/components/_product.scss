@@ -114,3 +114,26 @@
         }
     }
 }
+
+.Product {
+    position: relative;
+}
+
+.Product .Product-content {
+    position: relative;
+    z-index: 2;
+}
+
+.Animation-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: none;
+    left: 8px;
+    top: 49.35px;
+}

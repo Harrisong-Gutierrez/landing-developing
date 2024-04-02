@@ -1,6 +1,8 @@
 import Button from "@/components/Button";
 import Image from "next/image";
 import PropTypes from "prop-types";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const Product = ({
   btnText,
@@ -9,10 +11,15 @@ const Product = ({
   subtitle,
   subtitleClass,
   imageSrc,
+  animationSrc,
   logoImg,
   titleClass,
   titleClassVariant,
 }) => {
+  useEffect(() => {
+    AOS.init({});
+  }, []);
+
   return (
     <div className="Product">
       <figure className="Product-image">
@@ -24,7 +31,17 @@ const Product = ({
           height={168}
         />
       </figure>
-
+      <div className="Animation-overlay" data-aos="fade-right">
+        <figure>
+          <Image
+            className=""
+            src={animationSrc}
+            alt="product-image-animation"
+            width={27}
+            height={27}
+          />
+        </figure>
+      </div>
       <div className="Product-content">
         <h2 className={titleClass}>
           {title}
@@ -52,6 +69,7 @@ Product.propTypes = {
   subtitleClass: PropTypes.string.isRequired,
   imageSrc: PropTypes.string.isRequired,
   logoImg: PropTypes.string.isRequired,
+  animationSrc: PropTypes.string.isRequired,
 };
 
 export default Product;

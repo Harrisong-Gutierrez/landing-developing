@@ -15,6 +15,7 @@ const Products = () => {
       </p>
       <div className="Products-cards">
         <Product
+          animationSrc="/glass.png"
           titleClassVariant="Product-title-secondVariantTwo"
           titleClass="Product-title Product-title-firstVariant Product-title-firstVariantOne"
           btnText="Scopri GROHE Blue Pure"
