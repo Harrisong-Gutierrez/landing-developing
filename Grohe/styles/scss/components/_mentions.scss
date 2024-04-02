@@ -55,26 +55,26 @@
             font-size: 20px;
             height: 49.45px;
             line-height: 22px;
-            width: 357px;
-            margin-top: auto;
             margin-bottom: 84.12px;
+            margin-top: auto;
+            width: 357px;
         }
 
         &-textOne {
             font-size: 12px;
             height: 32px;
             line-height: 16px;
-            width: 1440px;
             margin-bottom: 42px;
+            width: 1440px;
         }
 
         &-content {
             display: flex;
             justify-content: center;
+            margin-top: auto;
             max-width: 100%;
             max-width: 1005px;
             text-align: center;
-            margin-top: auto;
         }
     }
 }

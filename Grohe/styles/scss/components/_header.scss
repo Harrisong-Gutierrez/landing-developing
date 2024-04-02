@@ -48,6 +48,7 @@
         flex-direction: column-reverse;
         font-family: $font-Inter-sans-serif;
         font-size: 14px;
+        font-weight: 400;
         gap: 13px;
         height: auto;
         line-height: 18px;
@@ -56,7 +57,6 @@
         margin-right: auto;
         text-decoration: none;
         width: 98px;
-        font-weight: 400;
 
         &-icon {
             height: 18px;
@@ -78,8 +78,8 @@
 
     @include media-breakpoint-up(lg) {
         &-logo {
-            width: 139.62px;
             height: 93.08px;
+            width: 139.62px;
         }
 
         &-icon {
@@ -88,17 +88,17 @@
         }
 
         &-title {
-            width: 767.52px;
             height: 192.61px;
+            width: 767.52px;
         }
 
         &-title-text {
-            width: 767.52px;
-            height: auto;
             font-family: $font-Inter-sans-serif;
-            font-weight: 900;
             font-size: 114.66px;
+            font-weight: 900;
+            height: auto;
             line-height: 112.3px;
+            width: 767.52px;
         }
 
         &-button {

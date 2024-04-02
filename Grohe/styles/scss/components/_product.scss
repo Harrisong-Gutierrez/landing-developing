@@ -42,8 +42,6 @@
         &-secondVariant {
             display: flex;
             flex-direction: column;
-
-            // height: 32px;
             width: 324px;
         }
     }
@@ -95,9 +93,9 @@
         }
 
         &-content {
+            gap: 23.99px;
             margin-top: 28px;
             width: 450px;
-            gap: 23.99px;
         }
 
         &-subtitle {
@@ -106,19 +104,19 @@
         }
 
         &-button {
-            width: 342.55px;
-            height: 45.58px;
-            font-size: 19.19px;
-            line-height: 24px;
             font-family: $font-hk-grotesk-bold;
+            font-size: 19.19px;
+            height: 45.58px;
+            line-height: 24px;
+            width: 342.55px;
         }
     }
 
 
     &-overlay {
+        left: 0;
         position: absolute;
         top: 0;
-        left: 0;
         z-index: 1;
     }
 
@@ -131,28 +129,28 @@
     }
 
     &-animate {
-        opacity: 1;
-        transform: none;
         left: 8px;
+        opacity: 1;
         top: 49.35px;
+        transform: none;
     }
 
     &-secondAnimate {
-        opacity: 1;
-        transform: none;
         left: -66%;
+        opacity: 1;
         top: 68px;
+        transform: none;
     }
 
     &-glasses {
-        opacity: 1;
-        transform: none;
-        left: 69%;
-        position: absolute;
-        top: -32px;
-        width: auto;
         display: flex;
         gap: 4px;
+        left: 69%;
+        opacity: 1;
+        position: absolute;
+        top: -32px;
+        transform: none;
+        width: auto;
     }
 
     &-hideElement {
@@ -201,8 +199,8 @@
 }
 
 .Animation-overlay {
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     z-index: 1;
 }
