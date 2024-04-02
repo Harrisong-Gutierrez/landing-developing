@@ -18,7 +18,6 @@
         font-weight: 500;
         height: 75px;
         line-height: 32px;
-        margin-bottom: 166%;
         margin-top: 34.63px;
         text-align: center;
         width: 328px;
@@ -28,7 +27,8 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        height: auto;
+        height: 100%;
+        justify-content: space-between;
     }
 
     &-button {

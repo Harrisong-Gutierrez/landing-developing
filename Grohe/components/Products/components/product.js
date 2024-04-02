@@ -35,7 +35,11 @@ const Product = ({
           height={168}
         />
       </figure>
-      <div className={animationClass} data-aos="fade-right">
+      <div
+        className={animationClass}
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      >
         <div className={glassesClass}>
           <figure>
             <Image
